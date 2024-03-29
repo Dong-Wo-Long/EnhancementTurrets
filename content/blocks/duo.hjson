@@ -1,0 +1,71 @@
+fogRadius: 20.5
+rotateSpeed: 10
+shootCone: 15
+recoil: 0.5
+range: 140
+shootY: 3
+
+inaccuracy: 2
+health: 250
+reload: 32
+
+ammoUseEffect: casing1
+
+ammoTypes: {
+copper: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+
+    ammoMultiplier: 4
+
+    lifetime: 37.5
+    damage: 14.5
+    speed: 3.2
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+    }
+
+graphite: {
+    type: BasicBulletType
+    height: 12
+    width: 9
+
+    reloadMultiplier: 0.75
+    ammoMultiplier: 2
+
+    lifetime: 60
+    damage: 24.5
+    speed: 2.5
+
+    lightColor: 95abd9
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    frontColor: 6b77a1
+    backColor: 95abd9
+    }
+
+silicon: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+
+    reloadMultiplier: 2.25
+    ammoMultiplier: 6
+
+    homingPower: 0.15
+    lifetime: 37.5
+    damage: 9
+    speed: 4.75
+
+    lightColor: 767a84
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    frontColor: 8e9097
+    backColor: 767a84
+    }
+}
