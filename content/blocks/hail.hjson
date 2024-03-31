@@ -1,0 +1,145 @@
+targetAir: false
+fogRadius: 47.5
+shootCone: 10
+recoil: 2
+shake: 5
+
+inaccuracy: 9
+health: 260
+reload: 180
+range: 360
+
+shootSound: bang
+
+ammoTypes: {
+graphite: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 4.5
+    knockback: 1.25
+    hitShake: 4.5
+    height: 11
+    width: 11
+
+    reloadMultiplier: 0.75
+    ammoMultiplier: 2
+
+    splashDamageRadius: 40
+    splashDamage: 121.5
+    lifetime: 80
+    damage: 72.5
+    speed: 2
+
+    hitEffect: massiveExplosion
+
+    lightColor: 6b77a1
+    lightOpacity: 0.7
+    lightRadius: 32
+
+    frontColor: 95abd9
+    backColor: 6b77a1
+    }
+
+silicon: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 4.5
+    knockback: 0.75
+    hitShake: 4.5
+    height: 11
+    width: 11
+
+    reloadMultiplier: 1.25
+    ammoMultiplier: 4
+
+    splashDamageRadius: 26
+    homingPower: 0.25
+    splashDamage: 45
+    homingRange: 50
+    lifetime: 80
+    damage: 62.5
+    speed: 3.2
+
+    hitEffect: blastExplosion
+
+    lightColor: 8e9097
+    lightOpacity: 0.7
+    lightRadius: 32
+
+    frontColor: 767a84
+    backColor: 8e9097
+    }
+
+pyratite: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 4.5
+    knockback: 2.5
+    hitShake: 4.5
+    height: 13
+    width: 13
+
+    makeFire: true
+
+    splashDamageRadius: 60
+    fragRandomSpread: 360
+    statusDuration: 720
+    splashDamage: 32
+    status: burning
+    fragBullets: 9
+    fragLifeMin: 3
+    lifetime: 80
+    damage: 45
+    speed: 2.5
+
+    trailEffect: incendTrail
+
+    lightColor: d37f47
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+fragBullet: {
+    type: BasicBulletType
+    collidesGround: false
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    lifetime: 12
+    damage: 3.25
+
+    despawnEffect: none
+
+    lightColor: d37f47
+    lightOpacity: 0.7
+    lightRadius: 16.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+}
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 40
+
+    waveColor: ffaa5f
+    waveStroke: 4
+    waveRad: 60
+
+    smokeColor: ffaa5f
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: ffaa5f
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
+}
+    }
+}
