@@ -1,5 +1,6 @@
 targetGround: false
 rotateSpeed: 12.5
+fogRadius: 65
 shootCone: 32
 recoil: 1
 
