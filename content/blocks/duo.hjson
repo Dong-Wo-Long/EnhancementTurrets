@@ -1,5 +1,5 @@
-fogRadius: 20.5
 rotateSpeed: 10
+fogRadius: 20.5
 shootCone: 15
 recoil: 0.5
 range: 140
