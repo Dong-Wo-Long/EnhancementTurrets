@@ -1,0 +1,113 @@
+targetGround: false
+rotateSpeed: 12.5
+shootCone: 32
+recoil: 1
+
+scaledHealth: 200
+inaccuracy: 17
+reload: 24
+range: 240
+
+shootSound: shootSnap
+
+shoot: {
+    shotDelay: 5
+    shots: 3
+    }
+
+ammoTypes: {
+scrap: {
+    type: FlakBulletType
+    height: 8
+    width: 6
+
+    reloadMultiplier: 0.35
+    ammoMultiplier: 2
+
+    splashDamageRadius: 24
+    splashDamage: 14.5
+    lifetime: 45
+    damage: 7.5
+    speed: 6
+
+    hitEffect: flakExplosion
+    shootEffect: shootSmall
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    frontColor: e0b28d
+    backColor: 9b928b
+    }
+
+lead: {
+    type: FlakBulletType
+    height: 8
+    width: 6
+
+    reloadMultiplier: 0.5
+    ammoMultiplier: 3
+
+    splashDamageRadius: 15
+    splashDamage: 27.5
+    lifetime: 62.5
+    damage: 21.5
+    speed: 3.75
+
+    hitEffect: flakExplosion
+    shootEffect: shootSmall
+
+    lightColor: 8c7fa9
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    frontColor: ab99d3
+    backColor: 8c7fa9
+    }
+
+metaglass: {
+    type: FlakBulletType
+    height: 8
+    width: 6
+
+    ammoMultiplier: 6
+
+    splashDamageRadius: 20
+    splashDamage: 7.5
+    fragBullets: 7
+    lifetime: 46.5
+    damage: 2.5
+    speed: 5
+
+    hitEffect: flakExplosion
+    shootEffect: shootSmall
+
+    lightColor: ebeef5
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    frontColor: ffffff
+    backColor: ebeef5
+
+fragBullet: {
+    type: BasicBulletType
+    collidesGround: false
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    lifetime: 20
+    damage: 1.25
+
+    despawnEffect: none
+
+    lightColor: ebeef5
+    lightOpacity: 0.7
+    lightRadius: 16.5
+
+    frontColor: ffffff
+    backColor: ebeef5
+}
+    }
+}
