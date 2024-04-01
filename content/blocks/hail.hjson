@@ -34,7 +34,7 @@ graphite: {
 
     lightColor: 6b77a1
     lightOpacity: 0.7
-    lightRadius: 37.5
+    lightRadius: 42.5
 
     frontColor: 95abd9
     backColor: 6b77a1
@@ -96,7 +96,7 @@ pyratite: {
 
     lightColor: d37f47
     lightOpacity: 0.7
-    lightRadius: 42.5
+    lightRadius: 54.5
 
     frontColor: ffaa5f
     backColor: d37f47
