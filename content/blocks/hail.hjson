@@ -22,7 +22,6 @@ graphite: {
     width: 11
 
     reloadMultiplier: 0.75
-    ammoMultiplier: 2
 
     splashDamageRadius: 40
     splashDamage: 121.5
