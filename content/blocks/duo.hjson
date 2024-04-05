@@ -25,7 +25,7 @@ copper: {
 
     lightColor: fff8e8
     lightOpacity: 0.7
-    lightRadius: 21
+    lightRadius: 24.5
     }
 
 graphite: {
@@ -42,7 +42,7 @@ graphite: {
 
     lightColor: 6b77a1
     lightOpacity: 0.7
-    lightRadius: 21
+    lightRadius: 27.5
 
     frontColor: 95abd9
     backColor: 6b77a1
