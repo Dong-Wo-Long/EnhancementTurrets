@@ -4,6 +4,8 @@ fogRadius: 37.5
 shootCone: 32
 recoil: 1
 
+buildCostMultiplier: 2.1
+
 scaledHealth: 200
 inaccuracy: 17
 reload: 24
