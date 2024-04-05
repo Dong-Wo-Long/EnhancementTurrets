@@ -31,7 +31,7 @@ graphite: {
 
     hitEffect: massiveExplosion
 
-    lightColor: 6b77a1
+    lightColor: 95abd9
     lightOpacity: 0.7
     lightRadius: 42.5
 
@@ -65,8 +65,8 @@ silicon: {
     lightOpacity: 0.7
     lightRadius: 32
 
-    frontColor: 767a84
-    backColor: 8e9097
+    frontColor: 8e9097
+    backColor: 767a84
     }
 
 pyratite: {
@@ -93,7 +93,7 @@ pyratite: {
 
     trailEffect: incendTrail
 
-    lightColor: d37f47
+    lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 54.5
 
@@ -112,7 +112,7 @@ fragBullet: {
 
     despawnEffect: none
 
-    lightColor: d37f47
+    lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 16.5
 
