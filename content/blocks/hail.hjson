@@ -1,5 +1,5 @@
 targetAir: false
-fogRadius: 47.5
+fogRadius: 52.5
 shootCone: 10
 recoil: 2
 shake: 5
