@@ -18,6 +18,11 @@ shoot: {
     shots: 3
     }
 
+requirements: [
+    copper/120
+    lead/80
+]
+
 ammoTypes: {
 scrap: {
     type: FlakBulletType
