@@ -11,6 +11,10 @@ reload: 32
 
 ammoUseEffect: casing1
 
+requirements: [
+    copper/32
+]
+
 ammoTypes: {
 copper: {
     type: BasicBulletType
