@@ -13,15 +13,15 @@ range: 240
 
 shootSound: shootSnap
 
-shoot: {
-    shotDelay: 5
-    shots: 3
-    }
-
 requirements: [
     copper/120
     lead/80
 ]
+
+shoot: {
+    shotDelay: 5
+    shots: 3
+    }
 
 ammoTypes: {
 scrap: {
