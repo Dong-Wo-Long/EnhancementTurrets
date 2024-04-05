@@ -4,6 +4,8 @@ shootCone: 10
 recoil: 2
 shake: 5
 
+buildCostMultiplier: 1.5
+
 inaccuracy: 9
 health: 260
 reload: 180
