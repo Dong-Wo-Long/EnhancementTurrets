@@ -1,0 +1,157 @@
+targetAir: false
+shake: 1
+
+buildCostMultiplier: 2.4
+
+scaledHealth: 240
+ammoEjectBack: 3
+inaccuracy: 15
+reload: 32
+range: 256
+recoil: 0
+
+requirements: [
+    titanium/60
+    graphite/80
+    silicon/45
+    copper/180
+]
+
+ammoUseEffect: casing2
+shootSound: shootBig
+shoot: {
+    shotDelay: 4
+    shots: 5
+    }
+
+ammoTypes: {
+copper: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+
+    reloadMultiplier: 1.25
+    ammoMultiplier: 3
+
+    lifetime: 60
+    damage: 21.5
+    speed: 3.75
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 24.5
+}
+
+graphite: {
+    type: BasicBulletType
+    height: 12
+    width: 9
+
+    reloadMultiplier: 0.75
+    ammoMultiplier: 2
+
+    lifetime: 60
+    damage: 32.5
+    speed: 4
+
+    lightColor: 95abd9
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    frontColor: 95abd9
+    backColor: 6b77a1
+}
+
+pyratite: {
+    type: BasicBulletType
+    height: 12
+    width: 10
+
+    status: burning
+
+    ammoMultiplier: 5
+
+    splashDamageRadius: 20
+    splashDamage: 12
+
+    makeFire: true
+    lifetime: 60
+    damage: 17.5
+    speed: 4.25
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
+}
+
+silicon: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+
+    reloadMultiplier: 1.8
+    ammoMultiplier: 6
+
+    homingPower: 0.18
+    lifetime: 60
+    damage: 14.5
+    speed: 4.8
+
+    lightColor: 8e9097
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    frontColor: 8e9097
+    backColor: 767a84
+}
+
+thorium: {
+    type: BasicBulletType
+    height: 13
+    width: 10
+
+    reloadMultiplier: 0.32
+
+    splashDamageRadius: 26
+    splashDamage: 12
+    lifetime: 60
+    damage: 52.5
+    speed: 3.2
+
+    despawnEffect: flakExplosion
+    smokeEffect: shootBigSmoke
+    hitEffect: flakExplosion
+    shootEffect: shootBig
+
+    lightColor: f9a3c7
+    lightOpacity: 0.7
+    lightRadius: 32
+
+    frontColor: f9a3c7
+    backColor: cb8ebf
+}
+    }
