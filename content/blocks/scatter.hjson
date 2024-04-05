@@ -59,7 +59,7 @@ lead: {
     hitEffect: flakExplosion
     shootEffect: shootSmall
 
-    lightColor: 8c7fa9
+    lightColor: ab99d3
     lightOpacity: 0.7
     lightRadius: 24.5
 
@@ -84,7 +84,7 @@ metaglass: {
     hitEffect: flakExplosion
     shootEffect: shootSmall
 
-    lightColor: ebeef5
+    lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 27.5
 
@@ -103,7 +103,7 @@ fragBullet: {
 
     despawnEffect: none
 
-    lightColor: ebeef5
+    lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 16.5
 
