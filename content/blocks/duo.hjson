@@ -44,8 +44,8 @@ graphite: {
     lightOpacity: 0.7
     lightRadius: 27.5
 
-    frontColor: 95abd9
-    backColor: 6b77a1
+    frontColor: 6b77a1
+    backColor: 95abd9
     }
 
 silicon: {
@@ -65,7 +65,7 @@ silicon: {
     lightOpacity: 0.7
     lightRadius: 21
 
-    frontColor: 767a84
-    backColor: 8e9097
+    frontColor: 8e9097
+    backColor: 767a84
     }
 }
