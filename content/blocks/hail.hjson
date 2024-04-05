@@ -13,6 +13,11 @@ range: 360
 
 shootSound: bang
 
+requirements: [
+    graphite/25
+    copper/45
+]
+
 ammoTypes: {
 graphite: {
     type: ArtilleryBulletType
