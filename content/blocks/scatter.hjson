@@ -61,7 +61,7 @@ lead: {
 
     lightColor: 8c7fa9
     lightOpacity: 0.7
-    lightRadius: 21
+    lightRadius: 24.5
 
     frontColor: ab99d3
     backColor: 8c7fa9
@@ -86,7 +86,7 @@ metaglass: {
 
     lightColor: ebeef5
     lightOpacity: 0.7
-    lightRadius: 21
+    lightRadius: 27.5
 
     frontColor: ffffff
     backColor: ebeef5
