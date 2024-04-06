@@ -51,7 +51,7 @@ graphite: {
     ammoMultiplier: 2
 
     lifetime: 60
-    damage: 24.5
+    damage: 27.5
     speed: 4
 
     lightColor: 95abd9
@@ -93,7 +93,7 @@ thorium: {
     splashDamageRadius: 26
     splashDamage: 24.5
     lifetime: 60
-    damage: 27.5
+    damage: 32.5
     speed: 3.2
 
     despawnEffect: flakExplosion
