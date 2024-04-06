@@ -4,8 +4,9 @@ shake: 1
 buildCostMultiplier: 2.4
 
 scaledHealth: 240
-ammoEjectBack: 3
+ammoEjectBack: 5
 inaccuracy: 15
+maxAmmo: 90
 reload: 32
 range: 256
 recoil: 0
@@ -30,8 +31,7 @@ copper: {
     height: 9
     width: 7
 
-    reloadMultiplier: 1.25
-    ammoMultiplier: 3
+    ammoMultiplier: 2
 
     lifetime: 60
     damage: 21.5
@@ -47,7 +47,7 @@ graphite: {
     height: 12
     width: 9
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.6
     ammoMultiplier: 2
 
     lifetime: 60
@@ -60,52 +60,6 @@ graphite: {
 
     frontColor: 95abd9
     backColor: 6b77a1
-}
-
-pyratite: {
-    type: BasicBulletType
-    height: 12
-    width: 10
-
-    status: burning
-
-    ammoMultiplier: 5
-
-    splashDamageRadius: 20
-    splashDamage: 12
-
-    makeFire: true
-    lifetime: 60
-    damage: 17.5
-    speed: 4.25
-
-    lightColor: ffaa5f
-    lightOpacity: 0.7
-    lightRadius: 32.5
-
-    frontColor: ffaa5f
-    backColor: d37f47
-
-hitEffect: {
-    type: MultiEffect
-
-effects: [
-{
-    effect: hitBulletSmall
-    colorTo: ffaa5f
-    lifetime: 20
-    sizeFrom: 3
-    sizeTo: 0
-    }
-{
-    effect: fireHit
-    colorTo: ffaa5f
-    lifetime: 20
-    sizeFrom: 1
-    sizeTo: 0
-    }
-]
-    }
 }
 
 silicon: {
@@ -137,9 +91,9 @@ thorium: {
     reloadMultiplier: 0.32
 
     splashDamageRadius: 26
-    splashDamage: 12
+    splashDamage: 18
     lifetime: 60
-    damage: 52.5
+    damage: 47.5
     speed: 3.2
 
     despawnEffect: flakExplosion
@@ -153,5 +107,50 @@ thorium: {
 
     frontColor: f9a3c7
     backColor: cb8ebf
+}
+
+pyratite: {
+    type: BasicBulletType
+    makeFire: true
+    height: 12
+    width: 10
+
+    reloadMultiplier: 0.75
+    ammoMultiplier: 5
+
+    splashDamageRadius: 20
+    splashDamage: 12.5
+    status: burning
+    lifetime: 60
+    damage: 17.5
+    speed: 4.25
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
 }
     }
