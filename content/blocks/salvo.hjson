@@ -47,11 +47,11 @@ graphite: {
     height: 12
     width: 9
 
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.45
     ammoMultiplier: 2
 
     lifetime: 60
-    damage: 32.5
+    damage: 27.5
     speed: 4
 
     lightColor: 95abd9
@@ -91,9 +91,9 @@ thorium: {
     reloadMultiplier: 0.32
 
     splashDamageRadius: 26
-    splashDamage: 18
+    splashDamage: 17.5
     lifetime: 60
-    damage: 47.5
+    damage: 32.5
     speed: 3.2
 
     despawnEffect: flakExplosion
