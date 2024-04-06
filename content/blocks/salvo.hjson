@@ -8,7 +8,7 @@ scaledHealth: 240
 ammoEjectBack: 5
 inaccuracy: 15
 maxAmmo: 120
-reload: 27.5
+reload: 24.5
 range: 256
 recoil: 0
 
@@ -48,7 +48,7 @@ graphite: {
     height: 12
     width: 9
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.64
     ammoMultiplier: 2
 
     lifetime: 60
@@ -89,10 +89,10 @@ thorium: {
     height: 13
     width: 10
 
-    reloadMultiplier: 0.45
+    reloadMultiplier: 0.32
 
     splashDamageRadius: 26
-    splashDamage: 24.5
+    splashDamage: 27.5
     lifetime: 60
     damage: 32.5
     speed: 3.2
