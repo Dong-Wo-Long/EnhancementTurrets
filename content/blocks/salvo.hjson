@@ -48,7 +48,7 @@ graphite: {
     height: 12
     width: 9
 
-    reloadMultiplier: 0.85
+    reloadMultiplier: 0.84
     ammoMultiplier: 2
 
     lifetime: 60
@@ -68,7 +68,7 @@ silicon: {
     width: 7
     height: 9
 
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.25
     ammoMultiplier: 6
 
     homingPower: 0.18
@@ -89,7 +89,7 @@ thorium: {
     height: 13
     width: 10
 
-    reloadMultiplier: 0.64
+    reloadMultiplier: 0.45
 
     splashDamageRadius: 26
     splashDamage: 24.5
