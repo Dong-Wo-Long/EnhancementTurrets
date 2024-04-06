@@ -31,7 +31,7 @@ copper: {
     height: 9
     width: 7
 
-    ammoMultiplier: 2
+    ammoMultiplier: 4
 
     lifetime: 60
     damage: 21.5
@@ -116,7 +116,7 @@ pyratite: {
     width: 10
 
     reloadMultiplier: 0.75
-    ammoMultiplier: 5
+    ammoMultiplier: 3
 
     splashDamageRadius: 20
     splashDamage: 12.5
