@@ -8,7 +8,7 @@ scaledHealth: 240
 ammoEjectBack: 5
 inaccuracy: 15
 maxAmmo: 120
-reload: 32
+reload: 28
 range: 256
 recoil: 0
 
