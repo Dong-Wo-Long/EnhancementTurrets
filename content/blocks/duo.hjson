@@ -6,6 +6,7 @@ range: 140
 shootY: 3
 
 inaccuracy: 2
+maxAmmo: 32
 health: 250
 reload: 32
 
