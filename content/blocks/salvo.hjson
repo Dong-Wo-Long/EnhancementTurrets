@@ -47,7 +47,7 @@ graphite: {
     height: 12
     width: 9
 
-    reloadMultiplier: 0.45
+    reloadMultiplier: 0.75
     ammoMultiplier: 2
 
     lifetime: 60
@@ -88,7 +88,7 @@ thorium: {
     height: 13
     width: 10
 
-    reloadMultiplier: 0.32
+    reloadMultiplier: 0.45
 
     splashDamageRadius: 26
     splashDamage: 24.5
@@ -115,7 +115,7 @@ pyratite: {
     height: 12
     width: 10
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.8
     ammoMultiplier: 3
 
     splashDamageRadius: 20
