@@ -25,7 +25,7 @@ graphite: {
     type: ArtilleryBulletType
     collidesTiles: false
     despawnShake: 4.5
-    knockback: 1.25
+    knockback: 2.25
     hitShake: 4.5
     height: 11
     width: 11
@@ -53,7 +53,7 @@ silicon: {
     type: ArtilleryBulletType
     collidesTiles: false
     despawnShake: 4.5
-    knockback: 0.75
+    knockback: 1.75
     hitShake: 4.5
     height: 11
     width: 11
@@ -83,7 +83,7 @@ pyratite: {
     type: ArtilleryBulletType
     collidesTiles: false
     despawnShake: 4.5
-    knockback: 2.5
+    knockback: 1.5
     hitShake: 4.5
     height: 13
     width: 13
