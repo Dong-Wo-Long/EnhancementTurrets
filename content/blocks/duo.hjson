@@ -25,7 +25,7 @@ copper: {
     ammoMultiplier: 4
 
     lifetime: 37.5
-    damage: 14.5
+    damage: 16
     speed: 3.2
 
     lightColor: fff8e8
@@ -63,7 +63,7 @@ silicon: {
 
     homingPower: 0.15
     lifetime: 37.5
-    damage: 9
+    damage: 12.5
     speed: 4.75
 
     lightColor: 8e9097
