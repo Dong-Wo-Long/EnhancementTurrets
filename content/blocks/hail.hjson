@@ -34,9 +34,9 @@ graphite: {
     ammoMultiplier: 2
 
     splashDamageRadius: 40
-    splashDamage: 121.5
+    splashDamage: 75
     lifetime: 80
-    damage: 72.5
+    damage: 90
     speed: 2
 
     hitEffect: massiveExplosion
@@ -58,7 +58,7 @@ silicon: {
     height: 11
     width: 11
 
-    reloadMultiplier: 1.32
+    reloadMultiplier: 1.5
     ammoMultiplier: 4
 
     splashDamageRadius: 26
