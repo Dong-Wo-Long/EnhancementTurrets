@@ -89,12 +89,12 @@ thorium: {
     height: 13
     width: 10
 
-    reloadMultiplier: 0.45
+    reloadMultiplier: 0.32
 
     splashDamageRadius: 26
     splashDamage: 24.5
     lifetime: 60
-    damage: 42.5
+    damage: 41.5
     speed: 3.2
 
     despawnEffect: flakExplosion
