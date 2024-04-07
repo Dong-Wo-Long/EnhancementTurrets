@@ -35,7 +35,7 @@ copper: {
     ammoMultiplier: 4
 
     lifetime: 60
-    damage: 18
+    damage: 21
     speed: 3.75
 
     lightColor: fff8e8
@@ -52,7 +52,7 @@ graphite: {
     ammoMultiplier: 2
 
     lifetime: 60
-    damage: 27.5
+    damage: 32
     speed: 4
 
     lightColor: 95abd9
@@ -73,7 +73,7 @@ silicon: {
 
     homingPower: 0.18
     lifetime: 60
-    damage: 12.5
+    damage: 16.5
     speed: 4.8
 
     lightColor: 8e9097
@@ -92,9 +92,9 @@ thorium: {
     reloadMultiplier: 0.45
 
     splashDamageRadius: 26
-    splashDamage: 24.5
+    splashDamage: 21.5
     lifetime: 60
-    damage: 32.5
+    damage: 41.5
     speed: 3.2
 
     despawnEffect: flakExplosion
