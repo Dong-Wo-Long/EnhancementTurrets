@@ -30,7 +30,7 @@ graphite: {
     height: 11
     width: 11
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.5
     ammoMultiplier: 2
 
     splashDamageRadius: 40
@@ -62,8 +62,8 @@ silicon: {
     ammoMultiplier: 4
 
     splashDamageRadius: 26
+    splashDamage: 41.5
     homingPower: 0.25
-    splashDamage: 45
     homingRange: 50
     lifetime: 80
     damage: 62.5
