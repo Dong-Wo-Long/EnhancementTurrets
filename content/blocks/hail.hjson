@@ -1,3 +1,4 @@
+rotateSpeed: 0.84
 targetAir: false
 fogRadius: 52.5
 shootCone: 10
