@@ -6,7 +6,7 @@ buildCostMultiplier: 2.4
 
 scaledHealth: 320
 ammoEjectBack: 5
-inaccuracy: 15
+inaccuracy: 12
 maxAmmo: 120
 reload: 21.5
 range: 256
@@ -120,10 +120,10 @@ pyratite: {
     ammoMultiplier: 3
 
     splashDamageRadius: 20
-    splashDamage: 7.5
+    splashDamage: 12.5
     status: burning
     lifetime: 60
-    damage: 14.5
+    damage: 17.5
     speed: 4.25
 
     lightColor: ffaa5f
