@@ -31,7 +31,7 @@ coal: {
 
     statusDuration: 240
     status: burning
-    lifetime: 21
+    lifetime: 24
     speed: 2.75
     damage: 25
 
@@ -53,7 +53,7 @@ pyratite: {
     status: burning
     lifetime: 24
     damage: 60
-    speed: 2.5
+    speed: 3
 
     statusDuration: 600
 
