@@ -62,7 +62,7 @@ silicon: {
     ammoMultiplier: 4
 
     splashDamageRadius: 26
-    splashDamage: 21.5
+    splashDamage: 24.5
     homingPower: 0.25
     homingRange: 50
     lifetime: 80
