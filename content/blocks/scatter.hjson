@@ -15,7 +15,7 @@ range: 240
 shootSound: shootSnap
 
 requirements: [
-    copper/80
+    copper/120
     lead/45
 ]
 
