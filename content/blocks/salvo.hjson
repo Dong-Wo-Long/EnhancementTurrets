@@ -1,5 +1,6 @@
 rotateSpeed: 0.64
 targetAir: false
+fogRadius: 35
 shake: 1
 
 buildCostMultiplier: 2.4
