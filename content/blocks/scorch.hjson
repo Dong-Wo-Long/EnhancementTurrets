@@ -47,6 +47,7 @@ pyratite: {
     pierce: true
     hitSize: 7
 
+    reloadMultiplier: 1.15
     ammoMultiplier: 2
 
     status: burning
