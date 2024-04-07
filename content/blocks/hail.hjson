@@ -98,7 +98,7 @@ pyratite: {
     fragBullets: 9
     fragLifeMin: 3
     lifetime: 80
-    damage: 32
+    damage: 45
     speed: 2.5
 
     trailEffect: incendTrail
