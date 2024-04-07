@@ -34,9 +34,9 @@ graphite: {
     ammoMultiplier: 2
 
     splashDamageRadius: 40
-    splashDamage: 90
+    splashDamage: 75
     lifetime: 80
-    damage: 90
+    damage: 45
     speed: 2
 
     hitEffect: massiveExplosion
@@ -58,15 +58,15 @@ silicon: {
     height: 11
     width: 11
 
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.45
     ammoMultiplier: 4
 
     splashDamageRadius: 26
-    splashDamage: 47.5
+    splashDamage: 27.5
     homingPower: 0.25
     homingRange: 50
     lifetime: 80
-    damage: 42.5
+    damage: 24.5
     speed: 3.2
 
     hitEffect: blastExplosion
@@ -93,12 +93,12 @@ pyratite: {
     splashDamageRadius: 60
     fragRandomSpread: 360
     statusDuration: 720
-    splashDamage: 45
+    splashDamage: 32
     status: burning
     fragBullets: 9
     fragLifeMin: 3
     lifetime: 80
-    damage: 45
+    damage: 21
     speed: 2.5
 
     trailEffect: incendTrail
