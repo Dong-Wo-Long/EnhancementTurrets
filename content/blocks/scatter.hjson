@@ -27,6 +27,7 @@ shoot: {
 ammoTypes: {
 scrap: {
     type: FlakBulletType
+    collidesGround: false
     height: 8
     width: 6
 
@@ -52,6 +53,7 @@ scrap: {
 
 lead: {
     type: FlakBulletType
+    collidesGround: false
     height: 8
     width: 6
 
@@ -77,6 +79,7 @@ lead: {
 
 metaglass: {
     type: FlakBulletType
+    collidesGround: false
     height: 8
     width: 6
 
