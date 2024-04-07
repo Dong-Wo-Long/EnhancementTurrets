@@ -36,7 +36,7 @@ graphite: {
     splashDamageRadius: 40
     splashDamage: 75
     lifetime: 80
-    damage: 90
+    damage: 121
     speed: 2
 
     hitEffect: massiveExplosion
@@ -62,11 +62,11 @@ silicon: {
     ammoMultiplier: 4
 
     splashDamageRadius: 26
-    splashDamage: 41.5
+    splashDamage: 47.5
     homingPower: 0.25
     homingRange: 50
     lifetime: 80
-    damage: 62.5
+    damage: 72.5
     speed: 3.2
 
     hitEffect: blastExplosion
