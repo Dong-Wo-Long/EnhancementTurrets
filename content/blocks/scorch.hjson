@@ -26,12 +26,12 @@ coal: {
     hittable: false
     hitSize: 7
 
-    reloadMultiplier: 1.32
+    reloadMultiplier: 1.25
     ammoMultiplier: 4
 
     statusDuration: 240
     status: burning
-    lifetime: 24
+    lifetime: 32
     speed: 2.75
     damage: 25
 
@@ -47,12 +47,11 @@ pyratite: {
     pierce: true
     hitSize: 7
 
-    reloadMultiplier: 1.16
     ammoMultiplier: 2
 
     status: burning
     lifetime: 24
-    damage: 60
+    damage: 64
     speed: 3
 
     statusDuration: 600
