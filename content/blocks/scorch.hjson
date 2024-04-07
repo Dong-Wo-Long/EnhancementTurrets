@@ -1,3 +1,4 @@
+rotateSpeed: 0.9
 targetAir: false
 shootCone: 50
 shootY: 3
