@@ -120,7 +120,7 @@ pyratite: {
     ammoMultiplier: 3
 
     splashDamageRadius: 20
-    splashDamage: 12.5
+    splashDamage: 14.5
     status: burning
     lifetime: 60
     damage: 17.5
