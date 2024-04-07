@@ -15,8 +15,8 @@ range: 360
 shootSound: bang
 
 requirements: [
-    graphite/25
     copper/45
+    graphite/25
 ]
 
 ammoTypes: {
