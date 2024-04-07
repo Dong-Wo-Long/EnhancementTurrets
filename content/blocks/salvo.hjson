@@ -13,10 +13,10 @@ range: 256
 recoil: 1
 
 requirements: [
-    titanium/60
-    graphite/80
-    silicon/45
     copper/180
+    graphite/80
+    titanium/60
+    silicon/45
 ]
 
 ammoUseEffect: casing2
