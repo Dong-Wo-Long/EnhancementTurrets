@@ -51,7 +51,7 @@ graphite: {
     reloadMultiplier: 0.84
     ammoMultiplier: 2
 
-    lifetime: 60
+    lifetime: 64
     damage: 32
     speed: 4
 
