@@ -1,0 +1,57 @@
+targetAir: false
+shootCone: 50
+shootY: 3
+recoil: 0
+
+coolantMultiplier: 20
+
+reload: 14.5
+health: 320
+range: 60
+
+ammoUseEffect: none
+shootSound: flame
+
+ammoTypes: {
+coal: {
+    type: BulletType
+    keepVelocity: false
+    collidesAir: false
+    hittable: false
+    hitSize: 7
+
+    ammoMultiplier: 4
+
+    statusDuration: 240
+    status: burning
+    lifetime: 18
+    speed: 2.75
+    damage: 25
+
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+}
+
+pyratite: {
+    type: BulletType
+    collidesAir: false
+    hittable: false
+    pierce: true
+    hitSize: 7
+
+    reloadMultiplier: 0.85
+    ammoMultiplier: 2
+
+    status: burning
+    lifetime: 24
+    damage: 60
+    speed: 2.5
+
+    statusDuration: 600
+
+    shootEffect: shootPyraFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+}
+    }
