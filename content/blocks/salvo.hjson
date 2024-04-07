@@ -13,7 +13,7 @@ range: 256
 recoil: 1
 
 requirements: [
-    copper/180
+    copper/160
     graphite/80
     titanium/60
     silicon/45
@@ -89,13 +89,13 @@ thorium: {
     height: 13
     width: 10
 
-    reloadMultiplier: 0.32
+    reloadMultiplier: 0.25
 
     splashDamageRadius: 26
     splashDamage: 24.5
-    lifetime: 60
+    lifetime: 64
     damage: 41.5
-    speed: 3.2
+    speed: 3.25
 
     despawnEffect: flakExplosion
     smokeEffect: shootBigSmoke
