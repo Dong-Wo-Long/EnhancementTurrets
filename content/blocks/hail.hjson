@@ -58,7 +58,7 @@ silicon: {
     height: 11
     width: 11
 
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.75
     ammoMultiplier: 4
 
     splashDamageRadius: 26
