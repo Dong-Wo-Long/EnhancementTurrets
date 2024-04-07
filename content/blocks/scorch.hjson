@@ -3,6 +3,7 @@ shootCone: 50
 shootY: 3
 recoil: 0
 
+buildCostMultiplier: 1.75
 coolantMultiplier: 20
 
 health: 320
