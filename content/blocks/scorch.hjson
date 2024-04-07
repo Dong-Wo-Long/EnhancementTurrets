@@ -12,6 +12,11 @@ range: 60
 ammoUseEffect: none
 shootSound: flame
 
+requirements: [
+    copper/32
+    graphite/25
+]
+
 ammoTypes: {
 coal: {
     type: BulletType
