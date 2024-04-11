@@ -27,7 +27,7 @@ coal: {
     hitSize: 7
 
     reloadMultiplier: 1.25
-    ammoMultiplier: 4
+    ammoMultiplier: 6
 
     statusDuration: 240
     status: burning
@@ -47,7 +47,7 @@ pyratite: {
     pierce: true
     hitSize: 7
 
-    ammoMultiplier: 2
+    ammoMultiplier: 12
 
     status: burning
     lifetime: 24
