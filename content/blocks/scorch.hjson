@@ -6,6 +6,7 @@ recoil: 0
 buildCostMultiplier: 1.75
 coolantMultiplier: 20
 
+maxAmmo: 18
 health: 480
 reload: 9
 range: 60
