@@ -119,14 +119,33 @@ fragBullet: {
     splashDamage: 14.5
     lifetime: 12
 
-    hitEffect: blastExplosion
-
     lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 16.5
 
     frontColor: ffaa5f
     backColor: d37f47
+
+    hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
 }
 
 hitEffect: {
