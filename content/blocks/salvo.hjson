@@ -73,7 +73,7 @@ silicon: {
     height: 9
 
     reloadMultiplier: 1.15
-    ammoMultiplier: 18
+    ammoMultiplier: 24
 
     homingPower: 0.18
     lifetime: 60
