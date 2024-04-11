@@ -115,8 +115,9 @@ fragBullet: {
     height: 12
     width: 5
 
+    splashDamageRadius: 60
+    splashDamage: 9
     lifetime: 12
-    damage: 7.5
 
     despawnEffect: none
 
