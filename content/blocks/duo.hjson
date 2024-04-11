@@ -22,7 +22,7 @@ copper: {
     height: 9
     width: 7
 
-    ammoMultiplier: 4
+    ammoMultiplier: 6
 
     lifetime: 37.5
     damage: 18
@@ -39,7 +39,7 @@ graphite: {
     width: 9
 
     reloadMultiplier: 0.75
-    ammoMultiplier: 2
+    ammoMultiplier: 3
 
     lifetime: 60
     damage: 24.5
@@ -59,7 +59,7 @@ silicon: {
     width: 7
 
     reloadMultiplier: 2.25
-    ammoMultiplier: 6
+    ammoMultiplier: 9
 
     homingPower: 0.15
     lifetime: 37.5
