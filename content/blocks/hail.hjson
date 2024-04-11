@@ -42,7 +42,7 @@ graphite: {
 
     lightColor: 95abd9
     lightOpacity: 0.7
-    lightRadius: 42.5
+    lightRadius: 41.5
 
     frontColor: 95abd9
     backColor: 6b77a1
@@ -61,7 +61,7 @@ silicon: {
     ammoMultiplier: 4
 
     splashDamageRadius: 26
-    splashDamage: 32.5
+    splashDamage: 27.5
     homingPower: 0.25
     homingRange: 50
     lifetime: 80
@@ -92,7 +92,7 @@ pyratite: {
     splashDamageRadius: 60
     fragRandomSpread: 360
     statusDuration: 900
-    splashDamage: 27.5
+    splashDamage: 17.5
     status: burning
     fragBullets: 7
     fragLifeMin: 3
