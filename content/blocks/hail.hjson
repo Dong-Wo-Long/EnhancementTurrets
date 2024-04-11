@@ -92,7 +92,7 @@ pyratite: {
     splashDamageRadius: 60
     fragRandomSpread: 360
     statusDuration: 720
-    splashDamage: 21
+    splashDamage: 25
     status: burning
     fragBullets: 9
     fragLifeMin: 3
@@ -115,8 +115,8 @@ fragBullet: {
     height: 12
     width: 5
 
-    splashDamageRadius: 20
-    splashDamage: 9
+    splashDamageRadius: 26
+    splashDamage: 7.5
     lifetime: 12
 
     hitEffect: blastExplosion
