@@ -34,7 +34,7 @@ copper: {
     height: 9
     width: 7
 
-    ammoMultiplier: 4
+    ammoMultiplier: 12
 
     lifetime: 60
     damage: 21
@@ -52,7 +52,7 @@ graphite: {
     width: 9
 
     reloadMultiplier: 0.84
-    ammoMultiplier: 2
+    ammoMultiplier: 6
 
     lifetime: 64
     damage: 32
@@ -73,7 +73,7 @@ silicon: {
     height: 9
 
     reloadMultiplier: 1.15
-    ammoMultiplier: 6
+    ammoMultiplier: 18
 
     homingPower: 0.18
     lifetime: 60
@@ -95,6 +95,7 @@ thorium: {
     width: 10
 
     reloadMultiplier: 0.25
+    ammoMultiplier: 4
 
     splashDamageRadius: 26
     splashDamage: 24.5
@@ -123,7 +124,7 @@ pyratite: {
     width: 10
 
     reloadMultiplier: 0.9
-    ammoMultiplier: 3
+    ammoMultiplier: 8
 
     splashDamageRadius: 20
     splashDamage: 14.5
