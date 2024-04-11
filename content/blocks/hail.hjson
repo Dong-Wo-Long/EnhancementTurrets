@@ -115,11 +115,11 @@ fragBullet: {
     height: 12
     width: 5
 
-    splashDamageRadius: 60
+    splashDamageRadius: 20
     splashDamage: 9
     lifetime: 12
 
-    despawnEffect: none
+    hitEffect: blastExplosion
 
     lightColor: ffaa5f
     lightOpacity: 0.7
