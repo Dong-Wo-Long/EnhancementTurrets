@@ -32,7 +32,7 @@ scrap: {
     width: 6
 
     reloadMultiplier: 0.35
-    ammoMultiplier: 2
+    ammoMultiplier: 3
 
     splashDamageRadius: 24
     splashDamage: 14.5
@@ -58,7 +58,7 @@ lead: {
     width: 6
 
     reloadMultiplier: 0.5
-    ammoMultiplier: 3
+    ammoMultiplier: 6
 
     splashDamageRadius: 15
     splashDamage: 27.5
@@ -83,7 +83,7 @@ metaglass: {
     height: 8
     width: 6
 
-    ammoMultiplier: 6
+    ammoMultiplier: 12
 
     splashDamageRadius: 20
     splashDamage: 7.5
