@@ -1,6 +1,6 @@
 rotateSpeed: 0.84
 targetAir: false
-fogRadius: 52.5
+fogRadius: 92.5
 shootCone: 10
 recoil: 2
 shake: 5
@@ -11,7 +11,7 @@ inaccuracy: 9
 maxAmmo: 15
 health: 240
 reload: 180
-range: 360
+range: 720
 
 shootSound: bang
 
