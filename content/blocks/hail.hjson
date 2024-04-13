@@ -27,8 +27,8 @@ graphite: {
     despawnShake: 4.5
     knockback: 2.25
     hitShake: 4.5
-    height: 11
-    width: 11
+    height: 13
+    width: 13
 
     reloadMultiplier: 0.75
     ammoMultiplier: 1
@@ -54,8 +54,8 @@ silicon: {
     despawnShake: 4.5
     knockback: 1.75
     hitShake: 4.5
-    height: 11
-    width: 11
+    height: 12
+    width: 12
 
     reloadMultiplier: 1.25
     ammoMultiplier: 4
@@ -84,15 +84,15 @@ pyratite: {
     knockback: 1.5
     makeFire: true
     hitShake: 4.5
-    height: 13
-    width: 13
+    height: 15
+    width: 15
 
     ammoMultiplier: 2
 
     splashDamageRadius: 60
     fragRandomSpread: 360
     statusDuration: 900
-    splashDamage: 21.5
+    splashDamage: 24.5
     status: burning
     fragBullets: 7
     fragLifeMin: 3
@@ -118,6 +118,7 @@ fragBullet: {
     splashDamageRadius: 26
     splashDamage: 14.5
     lifetime: 12
+    damage: 7.5
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -126,7 +127,7 @@ fragBullet: {
     frontColor: ffaa5f
     backColor: d37f47
 
-    hitEffect: {
+hitEffect: {
     type: MultiEffect
 
 effects: [
@@ -167,6 +168,130 @@ hitEffect: {
     sparkRad: 40
     sparkLen: 4
     sparks: 8
+}
+    }
+
+scrap: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 4.5
+    knockback: 7.5
+    makeFire: true
+    hitShake: 4.5
+    height: 11
+    width: 11
+
+    reloadMultiplier: 0.6
+    ammoMultiplier: 1
+
+    splashDamageRadius: 12
+    fragRandomSpread: 360
+    splashDamage: 21.5
+    fragLifeMax: 2.25
+    fragLifeMin: 0.8
+    fragBullets: 5
+    fragSpread: 32
+    lifetime: 80
+    speed: 4.5
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 18
+
+    frontColor: e0b28d
+    backColor: 9b928b
+
+fragBullet: {
+    type: BasicBulletType
+    collidesAir: false
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    pierceCap: 3
+    damage: 12.5
+    lifetime: 8
+    speed: 4.5
+
+    trailColor: e0b28d
+    trailLength: 5.25
+    trailWidth: 0.5
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    frontColor: e0b28d
+    backColor: 9b928b
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 25
+
+    waveColor: e0b28d
+    waveStroke: 1.5
+    waveRad: 3
+
+    smokeColor: e0b28d
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: e0b28d
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+}
+    }
+
+spore-pod: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 4.5
+    knockback: 1.25
+    hitShake: 4.5
+    height: 13
+    width: 13
+
+    ammoMultiplier: 3
+
+    splashDamageRadius: 40
+    status: spore-slowed
+    statusDuration: 300
+    splashDamage: 0
+    lifetime: 80
+    speed: 1.8
+    damage: 0
+
+    lightColor: 9e78dc
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    frontColor: 9e78dc
+    backColor: 7457ce
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 180
+
+    waveColor: 7457ce
+    waveStroke: 2.25
+    waveRad: 35
+
+    smokeColor: 7457ce
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 12
+
+    sparkColor: 7457ce
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
 }
     }
 }
