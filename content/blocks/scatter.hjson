@@ -36,7 +36,7 @@ scrap: {
 
     splashDamageRadius: 24
     splashDamage: 14.5
-    lifetime: 64
+    lifetime: 67.5
     damage: 7.5
     speed: 6
 
@@ -88,7 +88,7 @@ metaglass: {
     splashDamageRadius: 20
     splashDamage: 7.5
     fragBullets: 7
-    lifetime: 72.5
+    lifetime: 70
     damage: 2.5
     speed: 5
 
