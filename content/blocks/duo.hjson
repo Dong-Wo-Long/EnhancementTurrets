@@ -2,7 +2,7 @@ rotateSpeed: 10
 fogRadius: 20.5
 shootCone: 15
 recoil: 0.5
-range: 180
+range: 200
 shootY: 3
 
 inaccuracy: 2
@@ -43,7 +43,7 @@ graphite: {
 
     lifetime: 64
     damage: 24.5
-    speed: 2.5
+    speed: 2.75
 
     lightColor: 6b77a1
     lightOpacity: 0.7
@@ -62,7 +62,7 @@ silicon: {
     ammoMultiplier: 9
 
     homingPower: 0.15
-    lifetime: 41.5
+    lifetime: 42.5
     damage: 12.5
     speed: 4.75
 
@@ -87,7 +87,7 @@ scrap: {
     fragLifeMin: 0.8
     fragBullets: 2
     fragSpread: 45
-    lifetime: 42.5
+    lifetime: 48
     damage: 7.5
     speed: 5
 
