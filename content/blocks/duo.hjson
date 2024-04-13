@@ -2,7 +2,7 @@ rotateSpeed: 10
 fogRadius: 20.5
 shootCone: 15
 recoil: 0.5
-range: 140
+range: 180
 shootY: 3
 
 inaccuracy: 2
@@ -24,7 +24,7 @@ copper: {
 
     ammoMultiplier: 6
 
-    lifetime: 37.5
+    lifetime: 48
     damage: 18
     speed: 3.2
 
@@ -41,7 +41,7 @@ graphite: {
     reloadMultiplier: 0.75
     ammoMultiplier: 3
 
-    lifetime: 60
+    lifetime: 64
     damage: 24.5
     speed: 2.5
 
@@ -62,7 +62,7 @@ silicon: {
     ammoMultiplier: 9
 
     homingPower: 0.15
-    lifetime: 37.5
+    lifetime: 41.5
     damage: 12.5
     speed: 4.75
 
