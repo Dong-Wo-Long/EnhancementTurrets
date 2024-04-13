@@ -1,6 +1,6 @@
 rotateSpeed: 0.84
 targetAir: false
-fogRadius: 92.5
+fogRadius: 32.5
 shootCone: 10
 recoil: 2
 shake: 5
