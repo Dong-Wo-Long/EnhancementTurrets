@@ -100,7 +100,6 @@ scrap: {
 
 fragBullet: {
     type: BasicBulletType
-    collidesGround: false
     shrinkY: 1
     height: 12
     width: 5
