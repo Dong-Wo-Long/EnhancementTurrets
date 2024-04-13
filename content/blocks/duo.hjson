@@ -2,7 +2,7 @@ rotateSpeed: 10
 fogRadius: 20.5
 shootCone: 15
 recoil: 0.5
-range: 200
+range: 193
 shootY: 3
 
 inaccuracy: 2
