@@ -104,6 +104,7 @@ fragBullet: {
     height: 12
     width: 5
 
+    pierceCap: 2
     lifetime: 6
     damage: 4.5
     speed: 4.5
