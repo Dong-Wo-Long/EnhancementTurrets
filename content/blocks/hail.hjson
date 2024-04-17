@@ -110,7 +110,7 @@ pyratite: {
 
 fragBullet: {
     type: BasicBulletType
-    collidesGround: false
+    collidesAir: false
     shrinkY: 1
     height: 12
     width: 5
