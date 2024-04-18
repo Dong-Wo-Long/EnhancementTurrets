@@ -1,0 +1,14 @@
+absorbLasers: true
+
+buildCostMultiplier: 9
+
+lightningChance: 0.15
+lightningDamage: 12
+lightningLength: 18
+health: 1240
+armor: 2
+
+requirements: [
+    metaglass/4
+    surge-alloy/5
+]
