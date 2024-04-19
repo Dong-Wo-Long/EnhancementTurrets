@@ -22,7 +22,7 @@ destroyBullet: {
     fragRandomSpread: 360
     fragLifeMax: 2.5
     fragLifeMin: 1.5
-    fragBullets: 5
+    fragBullets: 6
     fragSpread: 45
     damage: 0
     speed: 0
