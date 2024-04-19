@@ -15,7 +15,6 @@ requirements: [
 
 destroyBullet: {
     lightningLengthRand: 21
-    lightningSpacing: 18
     lightningDamage: 48
     lightningLength: 12
     lightning: 9
