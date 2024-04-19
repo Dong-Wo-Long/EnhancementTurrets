@@ -12,3 +12,18 @@ requirements: [
     metaglass/4
     surge-alloy/5
 ]
+
+destroyBullet: {
+    lightningLengthRand: 16
+    lightningSpacing: 15
+    lightningDamage: 32
+    lightningLength: 9
+    lightning: 6
+    lifetime: 18
+
+    lightColor: f3e979
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    despawnSound: spark
+}
