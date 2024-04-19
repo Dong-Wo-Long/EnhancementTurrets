@@ -15,9 +15,9 @@ requirements: [
 
 destroyBullet: {
     lightningLengthRand: 16
-    lightningDamage: 32
+    lightningDamage: 48
     lightningLength: 9
-    lightning: 6
+    lightning: 4
     lifetime: 12
 
     lightColor: f3e979
