@@ -19,7 +19,7 @@ destroyBullet: {
     lightningDamage: 32
     lightningLength: 9
     lightning: 6
-    lifetime: 18
+    lifetime: 12
 
     lightColor: f3e979
     lightOpacity: 0.7
