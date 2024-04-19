@@ -1,0 +1,56 @@
+type: Wall
+
+name: Large metaglass wall
+description: Protects buildings from enemy shells. Absorbs lasers and electrical discharges.
+absorbLasers: true
+category: defense
+size: 2
+
+research: ets-10w-01-metaglass-wall
+researchCostMultiplier: 0.3
+buildCostMultiplier: 3
+
+health: 1280
+
+requirements: [
+    metaglass/24
+]
+
+destroyBullet: {
+    instantDisappear: true
+
+    fragRandomSpread: 360
+    fragLifeMax: 2.5
+    fragLifeMin: 1.5
+    fragBullets: 5
+    fragSpread: 45
+    damage: 0
+    speed: 0
+
+fragBullet: {
+    type: BasicBulletType
+    pierce: true
+    height: 7
+    width: 5
+
+    splashDamageRadius: 24
+    splashDamage: 12.5
+    pierceCap: 2
+    lifetime: 9
+    damage: 32
+    speed: 3
+
+    trailColor: ffffff
+    trailLength: 12.5
+    trailWidth: 1.25
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 14.5
+
+    frontColor: ffffff
+    backColor: ebeef5
+
+despawnEffect: flakExplosion
+}
+    }
