@@ -15,8 +15,10 @@ requirements: [
 
 destroyBullet: {
     lightningLengthRand: 21
-    lightningDamage: 64
+    lightningDamage: 75
     lightningLength: 12
+    statusDuration: 15
+    status: shocked
     lightning: 8
     lifetime: 15
 
