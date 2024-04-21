@@ -9,8 +9,7 @@ health: 1240
 armor: 2
 
 requirements: [
-    metaglass/4
-    surge-alloy/5
+    surge-alloy/6
 ]
 
 destroyBullet: {
