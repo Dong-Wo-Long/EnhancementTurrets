@@ -1,4 +1,4 @@
-absorbLasers: true
+insulated: true
 
 buildCostMultiplier: 10
 
@@ -9,8 +9,7 @@ health: 4960
 armor: 3
 
 requirements: [
-    metaglass/12
-    surge-alloy/21
+    surge-alloy/24
 ]
 
 destroyBullet: {
