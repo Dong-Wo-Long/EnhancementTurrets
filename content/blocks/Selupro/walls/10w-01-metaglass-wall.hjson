@@ -1,7 +1,7 @@
 type: Wall
 
 name: Metaglass wall
-description: Protects buildings from enemy shells. Absorbs lasers and electrical discharges.
+description: Protects buildings from enemy shells. Capable of absorbing only lasers.
 absorbLasers: true
 category: defense
 size: 1
