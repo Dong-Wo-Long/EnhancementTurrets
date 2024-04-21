@@ -1,4 +1,4 @@
-absorbLasers: true
+insulated: true
 
 buildCostMultiplier: 9
 
