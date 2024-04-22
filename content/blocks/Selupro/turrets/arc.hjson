@@ -1,0 +1,58 @@
+targetAir: false
+rotateSpeed: 4
+shootCone: 45
+recoil: 1
+
+buildCostMultiplier: 0.75
+coolantMultiplier: 3.5
+
+health: 320
+reload: 90
+range: 144
+
+shootEffect: lightningShoot
+heatColor: ffaa5f
+
+requirements: [
+    copper/75
+    lead/45
+]
+
+shootSound: spark
+shoot: {
+    shotDelay: 6
+    shots: 3
+    }
+
+shootType: {
+    type: LightningBulletType
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.25
+    ammoMultiplier: 1
+
+    lightningLength: 25
+    damage: 7.5
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 14.5
+
+lightningType: {
+    collidesAir: false
+    hittable: false
+
+    buildingDamageMultiplier: 0.25
+
+    statusDuration: 18
+    status: shocked
+    lifetime: 3
+
+    hitEffect: hitLancer
+    despawnEffect: none
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 14.5
+}
+    }
