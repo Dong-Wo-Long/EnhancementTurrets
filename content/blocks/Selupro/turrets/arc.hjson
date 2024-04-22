@@ -1,10 +1,11 @@
 targetAir: false
+fogRadius: 21.5
 rotateSpeed: 4
 shootCone: 45
 recoil: 1
 
 buildCostMultiplier: 0.75
-coolantMultiplier: 3.5
+coolantMultiplier: 7
 
 health: 320
 reload: 90
@@ -12,6 +13,10 @@ range: 144
 
 shootEffect: lightningShoot
 heatColor: ffaa5f
+
+consumes: {
+    power: 3
+}
 
 requirements: [
     copper/75
