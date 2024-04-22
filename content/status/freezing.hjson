@@ -1,1 +1,2 @@
-affinities: [ wet, shocked ]
+affinities: [ blasted, shocked ]
+transitionDamage: 24
