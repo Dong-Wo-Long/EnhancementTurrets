@@ -69,6 +69,7 @@ spore-pod: {
     hitSize: 6
 
     ammoMultiplier: 3
+    rangeChange: 12
 
     statusDuration: 180
     status: burning
