@@ -35,7 +35,7 @@ coal: {
     status: burning
     lifetime: 16
     speed: 2.75
-    damage: 25
+    damage: 24
 
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
