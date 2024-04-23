@@ -58,7 +58,7 @@ slag: {
 
     statusDuration: 480
     status: melting
-    knockback: 1
+    knockback: 0.6
     lifetime: 50
     damage: 17.5
     speed: 3.5
@@ -78,7 +78,7 @@ cryofluid: {
 
     statusDuration: 540
     status: freezing
-    knockback: 1.6
+    knockback: 1.8
     lifetime: 51.5
     damage: 1.25
     speed: 5.25
@@ -96,8 +96,8 @@ oil: {
     layer: 98
 
     statusDuration: 900
-    knockback: 1.2
     status: tarred
+    knockback: 1
     lifetime: 55
     speed: 4
 
