@@ -58,7 +58,7 @@ slag: {
 
     statusDuration: 480
     status: melting
-    knockback: 0.6
+    knockback: 1
     lifetime: 50
     damage: 17.5
     speed: 3.5
@@ -96,8 +96,8 @@ oil: {
     layer: 98
 
     statusDuration: 900
+    knockback: 1.2
     status: tarred
-    knockback: 1
     lifetime: 55
     speed: 4
 
