@@ -29,6 +29,7 @@ coal: {
 
     reloadMultiplier: 1.25
     ammoMultiplier: 6
+    pierceCap: 3
 
     statusDuration: 240
     status: burning
@@ -70,6 +71,7 @@ spore-pod: {
 
     ammoMultiplier: 3
     rangeChange: 12
+    pierceCap: 2
 
     statusDuration: 180
     status: burning
