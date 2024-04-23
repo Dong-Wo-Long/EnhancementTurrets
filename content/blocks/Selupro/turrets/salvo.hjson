@@ -1,16 +1,17 @@
 rotateSpeed: 0.64
 targetAir: false
-fogRadius: 24.5
+fogRadius: 48.5
 shake: 1
 
 buildCostMultiplier: 2.4
+coolantMultiplier: 2.5
 
 scaledHealth: 360
 ammoEjectBack: 5
-inaccuracy: 12
+inaccuracy: 7.5
 maxAmmo: 120
-reload: 21.5
-range: 256
+reload: 24.5
+range: 384
 recoil: 1
 
 requirements: [
@@ -36,7 +37,7 @@ copper: {
 
     ammoMultiplier: 12
 
-    lifetime: 60
+    lifetime: 80
     damage: 21
     speed: 3.75
 
@@ -54,7 +55,7 @@ graphite: {
     reloadMultiplier: 0.84
     ammoMultiplier: 6
 
-    lifetime: 64
+    lifetime: 84
     damage: 32
     speed: 4
 
@@ -76,7 +77,7 @@ silicon: {
     ammoMultiplier: 24
 
     homingPower: 0.18
-    lifetime: 60
+    lifetime: 80
     damage: 16.5
     speed: 4.8
 
@@ -99,7 +100,7 @@ thorium: {
 
     splashDamageRadius: 26
     splashDamage: 24.5
-    lifetime: 64
+    lifetime: 84
     damage: 41.5
     speed: 3.25
 
@@ -129,7 +130,7 @@ pyratite: {
     splashDamageRadius: 20
     splashDamage: 14.5
     status: burning
-    lifetime: 60
+    lifetime: 84
     damage: 17.5
     speed: 4.25
 
