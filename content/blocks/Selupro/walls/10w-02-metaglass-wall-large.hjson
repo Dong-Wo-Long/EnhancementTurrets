@@ -51,6 +51,6 @@ fragBullet: {
     frontColor: ffffff
     backColor: ebeef5
 
-despawnEffect: flakExplosion
+    despawnEffect: flakExplosion
 }
     }
