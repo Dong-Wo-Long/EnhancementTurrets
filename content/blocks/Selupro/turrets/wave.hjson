@@ -1,12 +1,11 @@
 inaccuracy: 5
 shootCone: 50
 recoil: 0.8
-shootY: 12
 
 liquidCapacity: 60
 scaledHealth: 180
-reload: 4
 range: 200
+reload: 4
 
 shootEffect: shootLiquid
 
