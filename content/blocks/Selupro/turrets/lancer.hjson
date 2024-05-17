@@ -3,7 +3,7 @@ fogRadius: 32
 recoil: 3
 shake: 5
 
-coolantMultiplier: 4.5
+coolantMultiplier: 4.8
 
 cooldownTime: 600
 scaledHealth: 640
@@ -33,7 +33,7 @@ shootType: {
     length: 300
     hitSize: 4
 
-    buildingDamageMultiplier: 4.20
+    buildingDamageMultiplier: 4.21
 
     ammoMultiplier: 1
     pierceCap: 21
