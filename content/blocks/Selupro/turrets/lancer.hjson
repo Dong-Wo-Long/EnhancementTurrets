@@ -3,7 +3,7 @@ fogRadius: 32
 recoil: 3
 shake: 5
 
-coolantMultiplier: 4.8
+coolantMultiplier: 9
 
 cooldownTime: 1680
 scaledHealth: 640
