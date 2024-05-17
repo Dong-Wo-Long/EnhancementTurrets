@@ -9,6 +9,7 @@ inaccuracy: 2
 maxAmmo: 32
 health: 350
 reload: 32
+armor: 2
 
 ammoUseEffect: casing1
 
