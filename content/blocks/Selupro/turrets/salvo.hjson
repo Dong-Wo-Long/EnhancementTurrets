@@ -1,6 +1,7 @@
 rotateSpeed: 0.64
 targetAir: false
 fogRadius: 48.5
+recoil: 1
 shake: 1
 
 buildCostMultiplier: 2.4
@@ -12,7 +13,7 @@ inaccuracy: 7.5
 maxAmmo: 120
 reload: 24.5
 range: 384
-recoil: 1
+armor: 3
 
 requirements: [
     copper/160
