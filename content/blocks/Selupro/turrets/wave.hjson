@@ -6,6 +6,7 @@ liquidCapacity: 60
 scaledHealth: 180
 range: 200
 reload: 4
+armor: 1
 
 shootEffect: shootLiquid
 
