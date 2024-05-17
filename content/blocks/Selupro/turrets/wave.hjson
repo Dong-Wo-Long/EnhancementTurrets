@@ -8,25 +8,7 @@ scaledHealth: 180
 reload: 4
 range: 200
 
-shootEffect: {
-    particles: 7
-    lifetime: 12
-    sizeFrom: 3
-    sizeTo: 0.25
-    offsetX: -6
-    length: 7.5
-    cone: 30
-
-    lightColor: 808080
-    lightOpacity: 0
-    lightRadius: 0
-
-    colorFrom: 808080
-    colorTo: 666666
-
-    sizeInterp: pow3In
-    interp: pow5Out
-    }
+shootEffect: shootLiquid
 
 ammoTypes: {
 water: {
