@@ -12,6 +12,7 @@ maxAmmo: 15
 health: 240
 reload: 180
 range: 720
+armor: 1
 
 shootSound: bang
 
