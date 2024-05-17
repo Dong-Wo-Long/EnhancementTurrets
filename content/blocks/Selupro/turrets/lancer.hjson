@@ -5,9 +5,9 @@ shake: 5
 
 coolantMultiplier: 4.8
 
-cooldownTime: 600
+cooldownTime: 1680
 scaledHealth: 640
-reload: 540
+reload: 1600
 range: 260
 recoil: 3
 armor: 5
