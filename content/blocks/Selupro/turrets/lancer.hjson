@@ -17,7 +17,7 @@ smokeEffect: none
 heatColor: feb380
 
 consumes: {
-    power: 9
+    power: 24
 }
 
 chargeSound: laser-charge
