@@ -8,7 +8,7 @@ buildCostMultiplier: 0.75
 coolantMultiplier: 3.2
 
 health: 320
-reload: 120
+reload: 64
 range: 144
 
 shootEffect: lightningShoot
@@ -24,10 +24,6 @@ requirements: [
 ]
 
 shootSound: spark
-shoot: {
-    shotDelay: 6
-    shots: 3
-    }
 
 shootType: {
     type: LightningBulletType
