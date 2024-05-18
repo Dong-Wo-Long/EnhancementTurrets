@@ -35,7 +35,9 @@ shootType: {
 
     buildingDamageMultiplier: 4.21
 
+    statusDuration: 108
     ammoMultiplier: 1
+    status: unmoving
     pierceCap: 21
     lifetime: 32
     damage: 481
