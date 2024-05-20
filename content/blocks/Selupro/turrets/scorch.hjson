@@ -1,4 +1,5 @@
 targetAir: false
+fogRadius: 10.5
 shootCone: 50
 shootY: 3
 recoil: 0
@@ -30,10 +31,10 @@ coal: {
 
     reloadMultiplier: 1.25
     ammoMultiplier: 6
-    pierceCap: 3
 
     statusDuration: 240
     status: burning
+    pierceCap: 3
     lifetime: 16
     speed: 2.75
     damage: 24
@@ -50,19 +51,58 @@ pyratite: {
     pierce: true
     hitSize: 7
 
+    reloadMultiplier: 0.75
     ammoMultiplier: 12
+    rangeChange: 40
 
+    statusDuration: 600
     status: burning
-    lifetime: 20
+    lifetime: 36
     damage: 64
     speed: 3
 
-    statusDuration: 600
-
-    shootEffect: shootPyraFlame
-    hitEffect: hitFlameSmall
     despawnEffect: none
+
+shootEffect: {
+    particles: 12
+    lifetime: 81
+    sizeFrom: 2
+    sizeTo: 0.25
+    length: 110
+    cone: 7
+
+    lightColor: ffb855
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    colorFrom: ffb855
+    colorTo: db661c
+
+    sizeInterp: pow3In
+    interp: pow5Out
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 15
+
+    waveColor: db661c
+    waveStroke: 1.5
+    waveRad: 4.5
+
+    smokeColor: 454545
+    smokeSizeBase: 0
+    smokeSize: 2.5
+    smokes: 5
+
+    sparkColor: db661c
+    sparkStroke: 1.25
+    sparkRad: 4.5
+    sparkLen: 1.5
+    sparks: 9
 }
+    }
 
 spore-pod: {
     type: BulletType
@@ -72,10 +112,10 @@ spore-pod: {
 
     ammoMultiplier: 3
     rangeChange: 12
-    pierceCap: 2
 
     statusDuration: 180
     status: burning
+    pierceCap: 2
     lifetime: 24
     damage: 18
     speed: 3
