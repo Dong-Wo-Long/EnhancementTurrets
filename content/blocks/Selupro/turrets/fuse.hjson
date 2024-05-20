@@ -1,0 +1,143 @@
+rotateSpeed: 1.25
+targetAir: false
+shootCone: 30
+recoil: 5
+shake: 8
+
+buildCostMultiplier: 3.2
+coolantMultiplier: 1.8
+
+scaledHealth: 710
+reload: 48
+range: 100
+armor: 21
+
+shootSound: shotgun
+shoot: {
+    type: ShootSpread
+    spread: 20
+    shots: 3
+}
+
+ammoTypes: {
+graphite: {
+    type: ShrapnelBulletType
+    collidesAir: false
+    pierce: false
+    length: 125
+
+    reloadMultiplier: 1.75
+    ammoMultiplier: 8
+    rangeChange: 20
+
+    pierceCap: 15
+    lifetime: 18
+    damage: 75
+
+    toColor: 95abd9
+}
+
+titanium: {
+    type: ShrapnelBulletType
+    collidesAir: false
+    length: 118
+    width: 17
+
+    reloadMultiplier: 1.25
+    ammoMultiplier: 5
+    rangeChange: 16
+
+    lifetime: 18
+    damage: 125
+
+    toColor: a4b8fa
+}
+
+thorium: {
+    type: ShrapnelBulletType
+    collidesAir: false
+    pierce: false
+    length: 90
+
+    reloadMultiplier: 0.64
+    ammoMultiplier: 3
+
+    pierceCap: 18
+    lifetime: 18
+    damage: 404
+
+    shootEffect: thoriumShoot
+    smokeEffect: thoriumShoot
+
+    toColor: f9a3c7
+}
+
+blast-compound: {
+    type: ShrapnelBulletType
+    collidesAir: false
+    pierce: false
+    length: 175
+
+    ammoMultiplier: 4
+    rangeChange: 72
+
+    lifetime: 18
+    damage: 45
+
+    toColor: ff795e
+
+hitEffect: {
+    type: ParticleEffect
+    particles: 18
+    lifetime: 17
+    line: true
+    cone: 360
+
+    baseRotation: 0
+    baseLength: 0
+    length: 17.5
+
+    strokeFrom: 3.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ff795e
+    }
+
+shootEffect: {
+    type: ParticleEffect
+    particles: 18
+    lifetime: 17
+    line: true
+    cone: 90
+
+    baseRotation: 0
+    baseLength: 0
+    length: 21.5
+
+    strokeFrom: 3.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ff795e
+    }
+
+smokeEffect: {
+    type: ParticleEffect
+    particles: 15
+    lifetime: 17
+    line: true
+    cone: 90
+
+    baseRotation: 0
+    baseLength: 0
+    length: 21.5
+
+    strokeFrom: 3.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ff795e
+    }
+}
+    }
