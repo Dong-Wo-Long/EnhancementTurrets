@@ -3,7 +3,7 @@ fogRadius: 32
 recoil: 3
 shake: 5
 
-coolantMultiplier: 9
+coolantMultiplier: 12.5
 
 cooldownTime: 1680
 scaledHealth: 640
@@ -30,17 +30,27 @@ shootType: {
     type: LaserBulletType
     collidesAir: false
     drawSize: 400
-    length: 300
+    length: 306
     hitSize: 4
 
     buildingDamageMultiplier: 4.21
 
-    statusDuration: 108
+    status: 20s-35-status-tier-2-direct-purpose-emp
+    statusDuration: 192
     ammoMultiplier: 1
-    status: unmoving
     pierceCap: 21
     lifetime: 32
     damage: 481
+
+    lightningLengthRand: 7.5
+    lightningAngleRand: 50
+    lightningSpacing: 35
+    lightningDamage: 141
+    lightningLength: 2.5
+    lightningDelay: 0.1
+
+    lightningColor: d1efff
+    lightColor: d1efff
 
     hitEffect: hitLancer
 
