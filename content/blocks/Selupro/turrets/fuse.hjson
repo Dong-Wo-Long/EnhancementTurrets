@@ -81,6 +81,8 @@ blast-compound: {
     ammoMultiplier: 4
     rangeChange: 72
 
+    statusDuration: 16
+    status: blasted
     lifetime: 18
     damage: 45
 
