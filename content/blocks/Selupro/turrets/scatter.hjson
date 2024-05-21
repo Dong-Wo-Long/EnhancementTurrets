@@ -78,6 +78,17 @@ lead: {
     backColor: 8c7fa9
     }
 
+silicon: {
+
+
+    lightColor: ab99d3
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    frontColor: ab99d3
+    backColor: 8c7fa9
+}
+
 metaglass: {
     type: FlakBulletType
     collidesGround: false
