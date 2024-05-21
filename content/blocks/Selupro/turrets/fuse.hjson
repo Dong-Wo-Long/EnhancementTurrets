@@ -14,7 +14,9 @@ range: 100
 armor: 21
 
 requirements: [
-    graphite/32
+    graphite/320
+    titanium/275
+    thorium/225
 ]
 
 shootSound: shotgun
