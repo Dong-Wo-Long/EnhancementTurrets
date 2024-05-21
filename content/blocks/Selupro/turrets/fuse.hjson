@@ -97,7 +97,7 @@ hitEffect: {
     baseLength: 0
     length: 17.5
 
-    strokeFrom: 3.2
+    strokeFrom: 2.4
     strokeTo: 0
 
     colorFrom: ffffff
