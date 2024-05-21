@@ -27,7 +27,7 @@ graphite: {
     length: 125
 
     reloadMultiplier: 1.75
-    ammoMultiplier: 8
+    ammoMultiplier: 18
     rangeChange: 20
 
     pierceCap: 15
@@ -79,7 +79,7 @@ pyratite: {
     length: 148
 
     reloadMultiplier: 0.75
-    ammoMultiplier: 4
+    ammoMultiplier: 8
     rangeChange: 44
 
     statusDuration: 180
