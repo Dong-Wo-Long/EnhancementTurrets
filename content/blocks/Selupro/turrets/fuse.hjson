@@ -4,7 +4,7 @@ shootCone: 30
 recoil: 5
 shake: 8
 
-buildCostMultiplier: 3.2
+buildCostMultiplier: 2.28
 coolantMultiplier: 1.8
 
 scaledHealth: 675
