@@ -86,7 +86,7 @@ pyratite: {
     statusDuration: 180
     status: burning
     pierceCap: 3
-    lifetime: 18
+    lifetime: 24
     damage: 48
 
     toColor: ffaa5f
@@ -94,7 +94,7 @@ pyratite: {
 hitEffect: {
     type: ParticleEffect
     particles: 18
-    lifetime: 32
+    lifetime: 18
     line: true
     cone: 360
 
@@ -112,13 +112,13 @@ hitEffect: {
 shootEffect: {
     type: ParticleEffect
     particles: 12
-    lifetime: 24
+    lifetime: 32
     line: true
     cone: 75
 
     baseRotation: 0
     baseLength: 0
-    length: 24.5
+    length: 27.5
 
     strokeFrom: 3.2
     strokeTo: 0
@@ -130,13 +130,13 @@ shootEffect: {
 smokeEffect: {
     type: ParticleEffect
     particles: 8
-    lifetime: 16
+    lifetime: 24
     line: true
     cone: 60
 
     baseRotation: 0
     baseLength: 0
-    length: 27.5
+    length: 24.5
 
     strokeFrom: 4.8
     strokeTo: 0
