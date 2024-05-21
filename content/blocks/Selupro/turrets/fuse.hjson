@@ -62,6 +62,8 @@ thorium: {
     reloadMultiplier: 0.64
     ammoMultiplier: 3
 
+    splashDamageRadius: 26
+    splashDamage: 181
     pierceCap: 18
     lifetime: 18
     damage: 404
@@ -81,6 +83,8 @@ blast-compound: {
     ammoMultiplier: 4
     rangeChange: 72
 
+    splashDamageRadius: 40
+    splashDamage: 32
     lifetime: 18
     damage: 45
 
