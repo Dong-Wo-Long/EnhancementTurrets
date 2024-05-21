@@ -85,7 +85,7 @@ blast-compound: {
     status: blasted
     pierceCap: 8
     lifetime: 18
-    damage: 45
+    damage: 48
 
     toColor: ff795e
 
