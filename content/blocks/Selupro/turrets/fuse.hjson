@@ -77,7 +77,7 @@ pyratite: {
     type: ShrapnelBulletType
     collidesAir: false
     pierce: false
-    length: 148
+    length: 140
 
     reloadMultiplier: 0.75
     ammoMultiplier: 8
