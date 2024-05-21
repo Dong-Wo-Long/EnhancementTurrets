@@ -83,6 +83,7 @@ blast-compound: {
 
     statusDuration: 16
     status: blasted
+    pierceCap: 8
     lifetime: 18
     damage: 45
 
