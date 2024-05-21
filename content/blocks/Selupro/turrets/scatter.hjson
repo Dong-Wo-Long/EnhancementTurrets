@@ -81,12 +81,12 @@ lead: {
 silicon: {
 
 
-    lightColor: ab99d3
+    lightColor: 8e9097
     lightOpacity: 0.7
-    lightRadius: 24.5
+    lightRadius: 21.5
 
-    frontColor: ab99d3
-    backColor: 8c7fa9
+    frontColor: 8e9097
+    backColor: 767a84
 }
 
 metaglass: {
