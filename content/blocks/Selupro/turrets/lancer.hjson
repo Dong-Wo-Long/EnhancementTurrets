@@ -3,6 +3,7 @@ fogRadius: 32
 recoil: 3
 shake: 5
 
+buildCostMultiplier: 2.57
 coolantMultiplier: 12.5
 
 cooldownTime: 1680
