@@ -23,6 +23,7 @@ consumes: {
 requirements: [
     copper/180
     lead/125
+    metaglass/80
     titanium/75
     silicon/45
 ]
