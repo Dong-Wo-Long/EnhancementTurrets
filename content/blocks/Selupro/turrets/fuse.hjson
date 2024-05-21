@@ -106,10 +106,10 @@ hitEffect: {
 
 shootEffect: {
     type: ParticleEffect
-    particles: 18
+    particles: 15
     lifetime: 17
     line: true
-    cone: 90
+    cone: 75
 
     baseRotation: 0
     baseLength: 0
@@ -124,10 +124,10 @@ shootEffect: {
 
 smokeEffect: {
     type: ParticleEffect
-    particles: 15
+    particles: 12
     lifetime: 17
     line: true
-    cone: 90
+    cone: 60
 
     baseRotation: 0
     baseLength: 0
