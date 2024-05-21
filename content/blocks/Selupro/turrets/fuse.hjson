@@ -7,7 +7,7 @@ shake: 8
 buildCostMultiplier: 3.2
 coolantMultiplier: 1.8
 
-scaledHealth: 710
+scaledHealth: 750
 reload: 48
 range: 100
 armor: 21
