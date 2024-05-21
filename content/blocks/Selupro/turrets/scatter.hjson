@@ -38,7 +38,7 @@ scrap: {
     splashDamageRadius: 20
     splashDamage: 14.5
     lifetime: 67.5
-    damage: 7.5
+    damage: 12.5
     speed: 6
 
     hitEffect: flakExplosion
