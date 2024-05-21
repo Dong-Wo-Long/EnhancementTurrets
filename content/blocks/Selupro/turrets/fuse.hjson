@@ -91,7 +91,7 @@ blast-compound: {
 hitEffect: {
     type: ParticleEffect
     particles: 18
-    lifetime: 17
+    lifetime: 16
     line: true
     cone: 360
 
@@ -109,7 +109,7 @@ hitEffect: {
 shootEffect: {
     type: ParticleEffect
     particles: 15
-    lifetime: 17
+    lifetime: 16
     line: true
     cone: 75
 
@@ -127,7 +127,7 @@ shootEffect: {
 smokeEffect: {
     type: ParticleEffect
     particles: 12
-    lifetime: 17
+    lifetime: 16
     line: true
     cone: 60
 
