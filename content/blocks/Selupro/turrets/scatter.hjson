@@ -85,7 +85,7 @@ silicon: {
     width: 6
 
     reloadMultiplier: 1.25
-    ammoMultiplier: 24
+    ammoMultiplier: 18
 
     splashDamageRadius: 0
     homingPower: 0.15
@@ -93,6 +93,8 @@ silicon: {
     lifetime: 75
     damage: 7.5
     speed: 4.8
+
+    hitEffect: hitBulletSmall
 
     lightColor: 8e9097
     lightOpacity: 0.7
