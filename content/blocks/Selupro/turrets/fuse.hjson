@@ -32,7 +32,7 @@ graphite: {
 
     pierceCap: 15
     lifetime: 18
-    damage: 75
+    damage: 64
 
     toColor: 95abd9
 }
@@ -72,6 +72,79 @@ thorium: {
     toColor: f9a3c7
 }
 
+pyratite: {
+    type: ShrapnelBulletType
+    collidesAir: false
+    pierce: false
+    length: 148
+
+    reloadMultiplier: 0.75
+    ammoMultiplier: 4
+    rangeChange: 44
+
+    statusDuration: 180
+    status: burning
+    pierceCap: 3
+    lifetime: 18
+    damage: 48
+
+    toColor: ffaa5f
+
+hitEffect: {
+    type: ParticleEffect
+    particles: 18
+    lifetime: 32
+    line: true
+    cone: 360
+
+    baseRotation: 0
+    baseLength: 0
+    length: 17.5
+
+    strokeFrom: 2.75
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ffaa5f
+    }
+
+shootEffect: {
+    type: ParticleEffect
+    particles: 12
+    lifetime: 24
+    line: true
+    cone: 75
+
+    baseRotation: 0
+    baseLength: 0
+    length: 24.5
+
+    strokeFrom: 3.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ffaa5f
+    }
+
+smokeEffect: {
+    type: ParticleEffect
+    particles: 8
+    lifetime: 16
+    line: true
+    cone: 60
+
+    baseRotation: 0
+    baseLength: 0
+    length: 27.5
+
+    strokeFrom: 4.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ffaa5f
+    }
+}
+
 blast-compound: {
     type: ShrapnelBulletType
     collidesAir: false
@@ -85,7 +158,7 @@ blast-compound: {
     status: blasted
     pierceCap: 8
     lifetime: 18
-    damage: 48
+    damage: 75
 
     toColor: ff795e
 
