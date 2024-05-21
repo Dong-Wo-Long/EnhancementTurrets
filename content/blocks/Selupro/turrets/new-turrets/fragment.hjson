@@ -1,0 +1,26 @@
+type: PointDefenseTurret
+name: Фрагмент
+description: "Небольшая, дешевая и более компактная версия «[#feb380]Сегмента[]». Повреждает и разрушает приближающиеся снаряды.\nНе взаимодействует с лазерными лучами."
+rotateSpeed: 12.5
+category: turret
+fogRadius: 47.5
+hasPower: true
+size: 1
+
+bulletDamage: 32
+shootLength: 5
+health: 320
+reload: 3.2
+range: 340
+armor: 1
+
+consumes: {
+    power: 2.25
+}
+
+requirements: [
+    copper/75
+    lead/64
+    titanium/45
+    silicon/32
+]
