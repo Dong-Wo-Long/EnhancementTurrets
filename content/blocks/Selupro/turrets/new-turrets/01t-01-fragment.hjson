@@ -8,7 +8,7 @@ hasPower: true
 size: 1
 
 bulletDamage: 32
-shootLength: 5
+shootLength: 4.5
 health: 320
 reload: 4.5
 range: 340
