@@ -21,8 +21,10 @@ consumes: {
 }
 
 requirements: [
-    copper/120
-    lead/45
+    copper/180
+    lead/125
+    titanium/75
+    silicon/45
 ]
 
 chargeSound: laser-charge
