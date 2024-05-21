@@ -13,6 +13,10 @@ reload: 48
 range: 100
 armor: 21
 
+requirements: [
+    graphite/32
+]
+
 shootSound: shotgun
 shoot: {
     type: ShootSpread
