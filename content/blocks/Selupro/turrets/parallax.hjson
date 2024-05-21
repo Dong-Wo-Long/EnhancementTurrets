@@ -2,7 +2,19 @@ rotateSpeed: 14.5
 scaledForce: 6
 force: 18
 
+buildCostMultiplier: 1.8
+
 scaledHealth: 285
-damage: 2.75
+damage: 3.2
 range: 320
 armor: 2
+
+consumes: {
+    power: 4.8
+}
+
+requirements: [
+    graphite/125
+    titanium/75
+    silicon/64
+]
