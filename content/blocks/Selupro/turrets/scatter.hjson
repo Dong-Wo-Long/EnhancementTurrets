@@ -11,7 +11,7 @@ inaccuracy: 17
 maxAmmo: 45
 reload: 24
 range: 360
-armor: 2
+armor: 3
 
 shootSound: shootSnap
 
