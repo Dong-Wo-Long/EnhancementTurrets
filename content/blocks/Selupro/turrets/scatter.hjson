@@ -87,7 +87,9 @@ silicon: {
     reloadMultiplier: 1.25
     ammoMultiplier: 24
 
-    homingPower: 0.18
+    splashDamageRadius: 0
+    homingPower: 0.15
+    splashDamage: 0
     lifetime: 75
     damage: 7.5
     speed: 4.8
@@ -109,10 +111,10 @@ metaglass: {
     ammoMultiplier: 12
 
     splashDamageRadius: 40
-    splashDamage: 12.5
+    splashDamage: 7.5
     fragBullets: 7
     lifetime: 70
-    damage: 2.5
+    damage: 4.5
     speed: 5
 
     hitEffect: flakExplosion
