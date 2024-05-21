@@ -36,9 +36,9 @@ scrap: {
     ammoMultiplier: 3
 
     splashDamageRadius: 20
-    splashDamage: 14.5
+    splashDamage: 17.5
     lifetime: 67.5
-    damage: 12.5
+    damage: 14.5
     speed: 6
 
     hitEffect: flakExplosion
@@ -91,7 +91,7 @@ silicon: {
     homingPower: 0.15
     splashDamage: 0
     lifetime: 75
-    damage: 7.5
+    damage: 12.5
     speed: 4.8
 
     hitEffect: hitBulletSmall
