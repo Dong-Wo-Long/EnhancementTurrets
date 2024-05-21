@@ -20,6 +20,11 @@ consumes: {
     power: 21
 }
 
+requirements: [
+    copper/120
+    lead/45
+]
+
 chargeSound: laser-charge
 shootSound: laser-shot
 shoot: {
