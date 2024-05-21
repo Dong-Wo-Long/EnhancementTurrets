@@ -1,6 +1,7 @@
 type: PointDefenseTurret
 name: Фрагмент
 description: "Небольшая, дешевая и более компактная версия «[#feb380]Сегмента[]». Повреждает и разрушает приближающиеся снаряды.\nНе взаимодействует с лазерными лучами."
+research: parallax
 rotateSpeed: 12.5
 category: turret
 fogRadius: 47.5
