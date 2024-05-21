@@ -5,8 +5,8 @@ force: 18
 buildCostMultiplier: 1.8
 
 scaledHealth: 285
-damage: 4.5
 range: 320
+damage: 5
 armor: 2
 
 consumes: {
