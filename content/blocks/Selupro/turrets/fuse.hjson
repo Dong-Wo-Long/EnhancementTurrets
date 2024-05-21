@@ -31,7 +31,7 @@ graphite: {
     ammoMultiplier: 18
     rangeChange: 20
 
-    knockback: 1.2
+    knockback: 1.25
     pierceCap: 15
     lifetime: 18
     damage: 64
@@ -51,7 +51,7 @@ titanium: {
 
     status: 20s-05-tier-2-strength-reduction
     statusDuration: 180
-    knockback: 1.8
+    knockback: 2.75
     lifetime: 18
     damage: 125
 
@@ -69,7 +69,7 @@ thorium: {
 
     status: 20s-06-tier-1-strength-reduction
     statusDuration: 108
-    knockback: 2.4
+    knockback: 4.5
     pierceCap: 18
     lifetime: 18
     damage: 404
@@ -164,7 +164,7 @@ blast-compound: {
 
     statusDuration: 16
     status: blasted
-    knockback: 4.5
+    knockback: 7.5
     pierceCap: 8
     lifetime: 18
     damage: 75
