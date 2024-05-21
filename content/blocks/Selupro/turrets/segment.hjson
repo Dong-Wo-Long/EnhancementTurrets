@@ -4,7 +4,7 @@ fogRadius: 34.5
 
 scaledHealth: 320
 bulletDamage: 48
-shootLength: 15
+shootLength: 10
 reload: 0.25
 range: 256
 armor: 8
