@@ -1,3 +1,4 @@
 name: Electromagnetic pulse
 speedMultiplier: 0
 disarm: true
+show: false
