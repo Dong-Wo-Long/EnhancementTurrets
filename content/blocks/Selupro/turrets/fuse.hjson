@@ -49,6 +49,8 @@ titanium: {
     ammoMultiplier: 5
     rangeChange: 16
 
+    status: 20s-05-tier-2-strength-reduction
+    statusDuration: 180
     knockback: 1.8
     lifetime: 18
     damage: 125
@@ -65,6 +67,8 @@ thorium: {
     reloadMultiplier: 0.64
     ammoMultiplier: 3
 
+    status: 20s-06-tier-1-strength-reduction
+    statusDuration: 108
     knockback: 2.4
     pierceCap: 18
     lifetime: 18
