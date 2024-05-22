@@ -4,6 +4,8 @@ retargetTime: 32
 fogRadius: 34.5
 shootCone: 18
 
+coolantMultiplier: 5
+
 scaledHealth: 320
 bulletDamage: 48
 shootLength: 7.5
