@@ -1,5 +1,6 @@
 research: ets-01t-01-fragment
 rotateSpeed: 21.5
+retargetTime: 32
 fogRadius: 34.5
 shootCone: 18
 
