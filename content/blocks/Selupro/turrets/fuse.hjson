@@ -11,7 +11,7 @@ scaledHealth: 675
 maxAmmo: 64
 reload: 48
 range: 100
-armor: 21
+armor: 24
 
 requirements: [
     graphite/320
