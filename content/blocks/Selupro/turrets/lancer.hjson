@@ -9,7 +9,7 @@ coolantMultiplier: 12.5
 cooldownTime: 1680
 scaledHealth: 640
 reload: 1600
-range: 420
+range: 380
 recoil: 3
 armor: 5
 
@@ -38,7 +38,7 @@ shootType: {
     type: LaserBulletType
     collidesAir: false
     drawSize: 400
-    length: 450
+    length: 410
     hitSize: 4
 
     buildingDamageMultiplier: 4.201
