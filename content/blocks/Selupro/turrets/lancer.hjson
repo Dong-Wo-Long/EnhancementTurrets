@@ -38,7 +38,7 @@ shootType: {
     type: LaserBulletType
     collidesAir: false
     drawSize: 400
-    length: 410
+    length: 460
     hitSize: 4
 
     buildingDamageMultiplier: 4.201
