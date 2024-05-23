@@ -166,8 +166,10 @@ surge-alloy: {
     buildingDamageMultiplier: 0.75
     reloadMultiplier: 2.25
 
+    status: 20s-36-status-tier-1-direct-purpose-emp
     splashDamageRadius: 72
     lightningDamage: 3.2
+    statusDuration: 180
     lightningLength: 7
     splashDamage: 4.5
     lifetime: 68.5
