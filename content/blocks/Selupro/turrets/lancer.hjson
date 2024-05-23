@@ -38,7 +38,7 @@ shootType: {
     type: LaserBulletType
     collidesAir: false
     drawSize: 400
-    length: 460
+    length: 515
     hitSize: 4
 
     buildingDamageMultiplier: 4.201
@@ -48,7 +48,7 @@ shootType: {
     statusDuration: 192
     pierceCap: 24
     lifetime: 32
-    damage: 729
+    damage: 750
 
     lightningLengthRand: 7.5
     lightningAngleRand: 50
