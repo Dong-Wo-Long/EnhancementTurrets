@@ -11,7 +11,7 @@ maxAmmo: 18
 health: 480
 reload: 9
 range: 60
-armor: 1
+armor: 3
 
 ammoUseEffect: none
 shootSound: flame
