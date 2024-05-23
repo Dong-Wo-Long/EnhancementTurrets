@@ -1,0 +1,189 @@
+rotateSpeed: 5
+recoilTime: 10
+shootCone: 30
+recoil: 1.5
+recoils: 3
+shootY: 10
+
+coolantMultiplier: 2.4
+
+scaledHealth: 425
+inaccuracy: 4.5
+maxAmmo: 24
+reload: 750
+range: 340
+armor: 21
+
+consumes: {
+    power: 5
+}
+
+chargeSound: minigun-charge
+shootSound: minigun-shot
+shoot: {
+    type: ShootBarrel
+    firstShotDelay: 30
+    shotDelay: 3.2
+    shots: 96
+
+barrels: [
+    0, 1, 0
+    3, 0, 0
+    -3, 0, 0
+]
+    }
+
+ammoTypes: {
+metaglass: { 
+    type: FlakBulletType
+    collidesGround: true
+    height: 12.5
+    width: 4.8
+
+    buildingDamageMultiplier: 0.5
+    reloadMultiplier: 1.25
+    ammoMultiplier: 3
+
+    splashDamageRadius: 40
+    splashDamage: 4.5
+    fragBullets: 4
+    lifetime: 64
+    damage: 3.2
+    speed: 6
+
+    hitEffect: flakExplosion
+    shootEffect: shootSmall
+
+    frontColor: ffffff
+    backColor: ebeef5
+
+    trailColor: ebeef5
+    trailLength: 32.5
+    trailWidth: 0.5
+
+fragBullet: {
+    type: BasicBulletType
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    pierceCap: 3
+    lifetime: 20
+    damage: 1.5
+
+    despawnEffect: none
+
+    frontColor: ffffff
+    backColor: ebeef5
+
+    trailColor: ebeef5
+    trailLength: 12.5
+    trailWidth: 0.5
+}
+    }
+
+blast-compound: { 
+    type: FlakBulletType
+    collidesGround: true
+    height: 15.25
+    width: 5.25
+
+    buildingDamageMultiplier: 1.25
+    reloadMultiplier: 0.75
+    ammoMultiplier: 1.5
+
+    splashDamageRadius: 60
+    statusDuration: 60
+    splashDamage: 7.5
+    status: blasted
+    lifetime: 114
+    speed: 3.2
+    damage: 5
+
+    shootEffect: shootBig
+
+    frontColor: ff795e
+    backColor: c85c51
+
+    trailColor: c85c51
+    trailLength: 32.5
+    trailWidth: 0.75
+}
+
+plastanium: { 
+    type: FlakBulletType
+    collidesGround: true
+    height: 12.5
+    width: 5
+
+    ammoMultiplier: 2
+
+    splashDamageRadius: 36
+    splashDamage: 5
+    fragBullets: 6
+    lifetime: 66.5
+    pierceCap: 4
+    damage: 4.5
+    speed: 5
+    
+    hitEffect: plasticExplosion
+    shootEffect: shootBig
+
+    frontColor: edf3a9
+    backColor: cbd97f
+
+    trailColor: cbd97f
+    trailLength: 32.5
+    trailWidth: 0.6
+
+fragBullet: {
+    type: BasicBulletType
+    shrinkY: 1
+    height: 9
+    width: 6
+
+    pierceCap: 5
+    lifetime: 15
+    damage: 3.2
+
+    despawnEffect: none
+
+    frontColor: edf3a9
+    backColor: cbd97f
+
+    trailColor: cbd97f
+    trailLength: 12.5
+    trailWidth: 0.5
+}
+    }
+
+surge-alloy: {
+    type: FlakBulletType
+    collidesGround: true
+    height: 16
+    width: 4.5
+
+    buildingDamageMultiplier: 0.75
+    reloadMultiplier: 2.25
+
+    splashDamageRadius: 72
+    lightningDamage: 3.2
+    lightningLength: 7
+    splashDamage: 4.5
+    lifetime: 68.5
+    lightning: 3
+    pierceCap: 3
+    damage: 2.5
+    speed: 7.5
+
+    hitEffect: flakExplosionBig
+    shootEffect: shootBig
+
+    frontColor: fcf387
+    backColor: e8d174
+
+    trailColor: e8d174
+    trailLength: 41.5
+    trailWidth: 0.5
+}
+    }
