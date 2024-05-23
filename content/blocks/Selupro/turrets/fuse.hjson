@@ -70,7 +70,7 @@ thorium: {
     pierce: false
     length: 90
 
-    reloadMultiplier: 0.64
+    reloadMultiplier: 0.75
     ammoMultiplier: 3
 
     status: 20s-06-tier-1-strength-reduction
@@ -78,7 +78,7 @@ thorium: {
     knockback: 7.5
     pierceCap: 18
     lifetime: 18
-    damage: 404
+    damage: 181
 
     shootEffect: thoriumShoot
     smokeEffect: thoriumShoot
@@ -92,7 +92,7 @@ pyratite: {
     pierce: false
     length: 140
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.85
     ammoMultiplier: 8
     rangeChange: 44
 
