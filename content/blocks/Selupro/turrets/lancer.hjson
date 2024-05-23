@@ -9,7 +9,7 @@ coolantMultiplier: 12.5
 cooldownTime: 1680
 scaledHealth: 640
 reload: 1600
-range: 260
+range: 332
 recoil: 3
 armor: 5
 
@@ -38,17 +38,17 @@ shootType: {
     type: LaserBulletType
     collidesAir: false
     drawSize: 400
-    length: 308
+    length: 360
     hitSize: 4
 
-    buildingDamageMultiplier: 4.21
+    buildingDamageMultiplier: 4.201
+    ammoMultiplier: 1
 
     status: 20s-35-status-tier-2-direct-purpose-emp
     statusDuration: 192
-    ammoMultiplier: 1
     pierceCap: 24
     lifetime: 32
-    damage: 481
+    damage: 729
 
     lightningLengthRand: 7.5
     lightningAngleRand: 50
