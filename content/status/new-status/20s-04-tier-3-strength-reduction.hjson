@@ -1,4 +1,3 @@
 name: Tier 3 strength reduction
 healthMultiplier: 0.25
 show: false
-affinities: [ wet ]
