@@ -3,3 +3,6 @@ reloadMultiplier: 0.32
 healthMultiplier: 0.8
 speedMultiplier: 0.5
 show: false
+
+affinities: [ wet ]
+
