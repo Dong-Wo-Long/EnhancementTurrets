@@ -59,7 +59,7 @@ titanium: {
     statusDuration: 180
     knockback: 4.5
     lifetime: 18
-    damage: 125
+    damage: 121
 
     toColor: a4b8fa
 }
