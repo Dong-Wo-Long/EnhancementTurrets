@@ -6,9 +6,9 @@ shake: 5
 buildCostMultiplier: 2.57
 coolantMultiplier: 12.5
 
-cooldownTime: 1680
+cooldownTime: 1440
 scaledHealth: 640
-reload: 1600
+reload: 1260
 range: 380
 recoil: 3
 armor: 5
