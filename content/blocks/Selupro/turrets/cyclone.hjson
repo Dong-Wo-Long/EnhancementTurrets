@@ -45,10 +45,10 @@ metaglass: {
     ammoMultiplier: 3
 
     splashDamageRadius: 40
-    splashDamage: 4.5
+    splashDamage: 7.5
     fragBullets: 4
     lifetime: 64
-    damage: 3.2
+    damage: 4.5
     speed: 6
 
     hitEffect: flakExplosion
@@ -69,7 +69,7 @@ fragBullet: {
 
     pierceCap: 3
     lifetime: 20
-    damage: 1.5
+    damage: 3.2
 
     despawnEffect: none
 
@@ -93,12 +93,16 @@ blast-compound: {
     ammoMultiplier: 1.5
 
     splashDamageRadius: 60
+    fragRandomSpread: 45
+    fragVelocityMin: 0.4
     statusDuration: 60
-    splashDamage: 7.5
+    splashDamage: 17.5
     status: blasted
+    fragBullets: 3
+    fragLifeMin: 0
     lifetime: 114
+    damage: 14.5
     speed: 3.2
-    damage: 5
 
     shootEffect: shootBig
 
@@ -108,7 +112,30 @@ blast-compound: {
     trailColor: c85c51
     trailLength: 32.5
     trailWidth: 0.75
+
+fragBullet: {
+    type: BasicBulletType
+    height: 12.5
+    shrinkY: 1
+    width: 7.5
+
+    splashDamageRadius: 26
+    statusDuration: 60
+    splashDamage: 12.5
+    status: blasted
+    lifetime: 15
+    damage: 7.5
+
+    despawnEffect: none
+
+    frontColor: edf3a9
+    backColor: cbd97f
+
+    trailColor: cbd97f
+    trailLength: 12.5
+    trailWidth: 0.5
 }
+    }
 
 plastanium: { 
     type: FlakBulletType
@@ -119,11 +146,11 @@ plastanium: {
     ammoMultiplier: 2
 
     splashDamageRadius: 36
-    splashDamage: 5
+    splashDamage: 12.5
     fragBullets: 6
     lifetime: 66.5
     pierceCap: 4
-    damage: 4.5
+    damage: 7.5
     speed: 5
     
     hitEffect: plasticExplosion
@@ -144,7 +171,7 @@ fragBullet: {
 
     pierceCap: 5
     lifetime: 15
-    damage: 3.2
+    damage: 4.5
 
     despawnEffect: none
 
@@ -168,14 +195,14 @@ surge-alloy: {
 
     status: 20s-36-status-tier-1-direct-purpose-emp
     splashDamageRadius: 72
-    lightningDamage: 3.2
+    lightningDamage: 4.5
     statusDuration: 180
     lightningLength: 7
-    splashDamage: 4.5
+    splashDamage: 7.5
     lifetime: 68.5
     lightning: 3
     pierceCap: 3
-    damage: 2.5
+    damage: 3.2
     speed: 7.5
 
     hitEffect: flakExplosionBig
