@@ -123,15 +123,16 @@ fragBullet: {
     statusDuration: 60
     splashDamage: 12.5
     status: blasted
-    lifetime: 15
+    lifetime: 18
     damage: 7.5
+    speed: 2.25
 
     despawnEffect: none
 
-    frontColor: edf3a9
-    backColor: cbd97f
+    frontColor: ff795e
+    backColor: c85c51
 
-    trailColor: cbd97f
+    trailColor: c85c51
     trailLength: 12.5
     trailWidth: 0.5
 }
