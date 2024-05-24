@@ -102,16 +102,17 @@ blast-compound: {
     buildingDamageMultiplier: 1.25
     reloadMultiplier: 0.75
     ammoMultiplier: 21
+    rangeChange: 20
 
     splashDamageRadius: 60
     fragRandomSpread: 45
     fragVelocityMin: 0.4
     statusDuration: 60
     splashDamage: 42.5
+    lifetime: 106.5
     status: blasted
     fragBullets: 3
     fragLifeMin: 0
-    lifetime: 114
     damage: 47.5
     speed: 3.2
 
@@ -265,6 +266,7 @@ silicon: {
 
     reloadMultiplier: 1.75
     ammoMultiplier: 41
+    rangeChange: 40
 
     homingPower: 0.18
     pierceCap: 5
