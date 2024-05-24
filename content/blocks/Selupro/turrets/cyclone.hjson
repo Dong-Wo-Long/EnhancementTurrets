@@ -127,7 +127,8 @@ fragBullet: {
     damage: 7.5
     speed: 2.25
 
-    despawnEffect: none
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
 
     frontColor: ff795e
     backColor: c85c51
