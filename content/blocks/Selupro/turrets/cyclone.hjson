@@ -1,4 +1,4 @@
-rotateSpeed: 2.25
+rotateSpeed: 1.75
 recoilTime: 10
 shootCone: 30
 recoil: 1.5
@@ -16,7 +16,7 @@ range: 340
 armor: 21
 
 consumes: {
-    power: 5.3
+    power: 5.3345
 }
 
 chargeSound: minigun-charge
@@ -36,24 +36,30 @@ barrels: [
 
 ammoTypes: {
 metaglass: { 
-    type: FlakBulletType
-    collidesGround: true
+    type: BasicBulletType
+    pierce: true
     height: 12.5
     width: 4.8
 
     buildingDamageMultiplier: 0.5
     reloadMultiplier: 1.25
     ammoMultiplier: 32
+    rangeChange: 44
 
     splashDamageRadius: 40
     splashDamage: 5
     fragBullets: 4
+    pierceCap: 18
     lifetime: 64
     damage: 7.5
     speed: 6
 
     hitEffect: flakExplosion
     shootEffect: shootSmall
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 24.5
 
     frontColor: ffffff
     backColor: ebeef5
@@ -64,6 +70,7 @@ metaglass: {
 
 fragBullet: {
     type: BasicBulletType
+    pierce: true
     shrinkY: 1
     height: 12
     width: 5
@@ -73,6 +80,10 @@ fragBullet: {
     damage: 4.5
 
     despawnEffect: none
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 21.5
 
     frontColor: ffffff
     backColor: ebeef5
@@ -84,8 +95,7 @@ fragBullet: {
     }
 
 blast-compound: { 
-    type: FlakBulletType
-    collidesGround: true
+    type: BasicBulletType
     height: 15.25
     width: 5.25
 
@@ -105,7 +115,13 @@ blast-compound: {
     damage: 47.5
     speed: 3.2
 
+    despawnEffect: flakExplosionBig
+    hitEffect: flakExplosionBig
     shootEffect: shootBig
+
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 32.5
 
     frontColor: ff795e
     backColor: c85c51
@@ -116,6 +132,7 @@ blast-compound: {
 
 fragBullet: {
     type: BasicBulletType
+    pierce: true
     height: 12.5
     shrinkY: 1
     width: 7.5
@@ -132,6 +149,10 @@ fragBullet: {
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
 
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
     frontColor: ff795e
     backColor: c85c51
 
@@ -142,8 +163,8 @@ fragBullet: {
     }
 
 plastanium: { 
-    type: FlakBulletType
-    collidesGround: true
+    type: BasicBulletType
+    pierce: true
     height: 12.5
     width: 5
 
@@ -153,12 +174,17 @@ plastanium: {
     splashDamage: 17.5
     fragBullets: 6
     lifetime: 66.5
-    pierceCap: 4
+    pierceCap: 12
     damage: 14.5
     speed: 5
     
+    despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
     shootEffect: shootBig
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 24.5
 
     frontColor: edf3a9
     backColor: cbd97f
@@ -169,6 +195,7 @@ plastanium: {
 
 fragBullet: {
     type: BasicBulletType
+    pierce: true
     shrinkY: 1
     height: 9
     width: 6
@@ -178,6 +205,10 @@ fragBullet: {
     damage: 12.5
 
     despawnEffect: none
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 21.5
 
     frontColor: edf3a9
     backColor: cbd97f
@@ -189,14 +220,14 @@ fragBullet: {
     }
 
 surge-alloy: {
-    type: FlakBulletType
-    collidesGround: true
+    type: BasicBulletType
     height: 16
     width: 4.5
 
     buildingDamageMultiplier: 0.75
     reloadMultiplier: 2.25
     ammoMultiplier: 18
+    rangeChange: 172
 
     status: 20s-36-status-tier-1-direct-purpose-emp
     splashDamageRadius: 72
@@ -210,14 +241,48 @@ surge-alloy: {
     damage: 12.5
     speed: 7.5
 
+    despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
     shootEffect: shootBig
+
+    lightColor: fcf387
+    lightOpacity: 0.7
+    lightRadius: 27.5
 
     frontColor: fcf387
     backColor: e8d174
 
     trailColor: e8d174
     trailLength: 41.5
+    trailWidth: 0.5
+}
+
+silicon: {
+    type: BasicBulletType
+    pierce: true
+    height: 12
+    width: 6
+
+    reloadMultiplier: 1.75
+    ammoMultiplier: 41
+
+    homingPower: 0.18
+    pierceCap: 5
+    lifetime: 75
+    damage: 17.5
+    speed: 4.8
+
+    hitEffect: hitBulletSmall
+
+    lightColor: 8e9097
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    frontColor: 8e9097
+    backColor: 767a84
+
+    trailColor: 767a84
+    trailLength: 32.5
     trailWidth: 0.5
 }
     }
