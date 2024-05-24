@@ -7,7 +7,7 @@ shootY: 10
 
 coolantMultiplier: 2.4
 
-scaledHealth: 400
+scaledHealth: 350
 ammoPerShot: 96
 inaccuracy: 4.5
 maxAmmo: 720
