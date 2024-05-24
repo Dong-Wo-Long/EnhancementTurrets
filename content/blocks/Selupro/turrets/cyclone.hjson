@@ -1,4 +1,4 @@
-rotateSpeed: 3.2
+rotateSpeed: 2.25
 recoilTime: 10
 shootCone: 30
 recoil: 1.5
@@ -8,8 +8,9 @@ shootY: 10
 coolantMultiplier: 2.4
 
 scaledHealth: 425
+ammoPerShot: 96
 inaccuracy: 4.5
-maxAmmo: 24
+maxAmmo: 96
 reload: 750
 range: 340
 armor: 21
