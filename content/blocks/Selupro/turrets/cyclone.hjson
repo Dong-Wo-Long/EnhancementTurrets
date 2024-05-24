@@ -125,6 +125,7 @@ fragBullet: {
     splashDamage: 27.5
     status: blasted
     lifetime: 33.5
+    pierceCap: 5
     damage: 32.5
     speed: 3
 
