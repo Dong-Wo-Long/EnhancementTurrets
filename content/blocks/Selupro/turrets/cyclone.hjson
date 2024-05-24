@@ -16,7 +16,7 @@ range: 340
 armor: 21
 
 consumes: {
-    power: 5.2
+    power: 5.3
 }
 
 chargeSound: minigun-charge
@@ -43,7 +43,7 @@ metaglass: {
 
     buildingDamageMultiplier: 0.5
     reloadMultiplier: 1.25
-    ammoMultiplier: 75
+    ammoMultiplier: 41
 
     splashDamageRadius: 40
     splashDamage: 7.5
@@ -91,7 +91,7 @@ blast-compound: {
 
     buildingDamageMultiplier: 1.25
     reloadMultiplier: 0.75
-    ammoMultiplier: 41
+    ammoMultiplier: 24
 
     splashDamageRadius: 60
     fragRandomSpread: 45
@@ -146,7 +146,7 @@ plastanium: {
     height: 12.5
     width: 5
 
-    ammoMultiplier: 48
+    ammoMultiplier: 32
 
     splashDamageRadius: 36
     splashDamage: 12.5
@@ -195,7 +195,7 @@ surge-alloy: {
 
     buildingDamageMultiplier: 0.75
     reloadMultiplier: 2.25
-    ammoMultiplier: 32
+    ammoMultiplier: 18
 
     status: 20s-36-status-tier-1-direct-purpose-emp
     splashDamageRadius: 72
