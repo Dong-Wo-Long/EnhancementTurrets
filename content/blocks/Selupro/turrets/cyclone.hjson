@@ -15,7 +15,7 @@ range: 340
 armor: 21
 
 consumes: {
-    power: 5.1
+    power: 5.2
 }
 
 chargeSound: minigun-charge
@@ -123,7 +123,7 @@ fragBullet: {
     statusDuration: 60
     splashDamage: 12.5
     status: blasted
-    lifetime: 20
+    lifetime: 33.5
     damage: 7.5
     speed: 3
 
