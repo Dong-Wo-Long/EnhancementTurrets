@@ -164,7 +164,7 @@ pyratite: {
 
     trailColor: d37f47
     trailLength: 32.5
-    trailWidth: 2.5
+    trailWidth: 2.4
 
     frontColor: ffaa5f
     backColor: d37f47
