@@ -47,6 +47,9 @@ graphite: {
     lightOpacity: 0.7
     lightRadius: 41.5
 
+    trailLength: 4.75
+    trailWidth: 4.75
+
     frontColor: 95abd9
     backColor: 6b77a1
     }
@@ -75,6 +78,9 @@ silicon: {
     lightColor: 8e9097
     lightOpacity: 0.7
     lightRadius: 32
+
+    trailLength: 4.5
+    trailWidth: 4.5
 
     frontColor: 8e9097
     backColor: 767a84
@@ -108,6 +114,9 @@ pyratite: {
     lightOpacity: 0.7
     lightRadius: 54.5
 
+    trailLength: 5
+    trailWidth: 5
+
     frontColor: ffaa5f
     backColor: d37f47
 
@@ -126,6 +135,10 @@ fragBullet: {
     lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 16.5
+
+    trailColor: d37f47
+    trailLength: 17.5
+    trailWidth: 1.25
 
     frontColor: ffaa5f
     backColor: d37f47
@@ -200,6 +213,9 @@ scrap: {
     lightColor: e0b28d
     lightOpacity: 0.7
     lightRadius: 18
+
+    trailLength: 4.25
+    trailWidth: 4.25
 
     frontColor: e0b28d
     backColor: 9b928b
