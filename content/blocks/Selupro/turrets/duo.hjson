@@ -1,5 +1,5 @@
 rotateSpeed: 10
-fogRadius: 24.5
+fogRadius: 21.5
 shootCone: 15
 recoil: 0.5
 range: 192
@@ -11,6 +11,7 @@ health: 350
 reload: 32
 armor: 2
 
+shootEffect: shootSmallColor
 ammoUseEffect: casing1
 
 requirements: [
