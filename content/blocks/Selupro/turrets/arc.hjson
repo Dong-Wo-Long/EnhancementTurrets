@@ -19,8 +19,8 @@ consumes: {
 }
 
 requirements: [
-    copper/75
-    lead/45
+    lead/32
+    graphite/24
 ]
 
 shootSound: spark
