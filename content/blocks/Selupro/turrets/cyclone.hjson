@@ -231,7 +231,7 @@ surge-alloy: {
     rangeChange: 172
 
     status: 20s-36-status-tier-1-direct-purpose-emp
-    splashDamageRadius: 72
+    splashDamageRadius: 40
     statusDuration: 180
     lightningDamage: 5
     lightningLength: 7
