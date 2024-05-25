@@ -101,7 +101,7 @@ blast-compound: {
 
     buildingDamageMultiplier: 1.25
     reloadMultiplier: 0.75
-    ammoMultiplier: 21
+    ammoMultiplier: 18
     rangeChange: 20
 
     splashDamageRadius: 60
@@ -227,7 +227,7 @@ surge-alloy: {
 
     buildingDamageMultiplier: 0.75
     reloadMultiplier: 2.25
-    ammoMultiplier: 18
+    ammoMultiplier: 12
     rangeChange: 172
 
     status: 20s-36-status-tier-1-direct-purpose-emp
