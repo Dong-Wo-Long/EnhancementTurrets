@@ -21,6 +21,7 @@ consumes: {
 
 chargeSound: minigun-charge
 shootSound: minigun-shot
+ammoUseEffect: casing2
 shoot: {
     type: ShootBarrel
     firstShotDelay: 30
