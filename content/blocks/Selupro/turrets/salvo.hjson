@@ -28,6 +28,7 @@ requirements: [
     silicon/45
 ]
 
+shootEffect: shootSmallColor
 ammoUseEffect: casing2
 shootSound: shootBig
 shoot: {
