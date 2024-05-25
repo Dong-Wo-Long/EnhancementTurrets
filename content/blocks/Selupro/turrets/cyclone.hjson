@@ -6,6 +6,7 @@ recoil: 1.5
 recoils: 3
 shootY: 10
 
+buildCostMultiplier: 3.2
 coolantMultiplier: 2.4
 
 scaledHealth: 360
