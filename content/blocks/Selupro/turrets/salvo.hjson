@@ -15,6 +15,10 @@ reload: 24.5
 range: 384
 armor: 4
 
+consumes: {
+    power: 3
+}
+
 requirements: [
     copper/160
     graphite/80
