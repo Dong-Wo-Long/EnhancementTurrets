@@ -1,5 +1,6 @@
 research: salvo
 rotateSpeed: 1.75
+fogRadius: 47.5
 recoilTime: 10
 shootCone: 30
 recoil: 1.5
