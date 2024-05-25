@@ -238,7 +238,6 @@ surge-alloy: {
     splashDamage: 7.5
     lifetime: 68.5
     lightning: 3
-    pierceCap: 2
     damage: 12.5
     speed: 7.5
 
