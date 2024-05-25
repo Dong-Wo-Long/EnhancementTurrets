@@ -7,7 +7,7 @@ buildCostMultiplier: 2.57
 coolantMultiplier: 12.5
 
 cooldownTime: 1440
-scaledHealth: 640
+scaledHealth: 575
 reload: 1260
 range: 380
 recoil: 3
