@@ -1,10 +1,10 @@
 research: duo
-inaccuracy: 5
 shootCone: 50
 recoil: 0.8
 
 liquidCapacity: 60
 scaledHealth: 180
+inaccuracy: 5
 range: 200
 reload: 4
 
