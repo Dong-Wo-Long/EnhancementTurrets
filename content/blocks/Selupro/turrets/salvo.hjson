@@ -28,7 +28,7 @@ requirements: [
     silicon/45
 ]
 
-shootEffect: shootSmallColor
+shootEffect: shootBigColor
 ammoUseEffect: casing2
 shootSound: shootBig
 shoot: {
@@ -127,14 +127,13 @@ thorium: {
     despawnEffect: flakExplosion
     smokeEffect: shootBigSmoke
     hitEffect: flakExplosion
-    shootEffect: shootBig
 
     lightColor: f9a3c7
     lightOpacity: 0.7
     lightRadius: 32
 
     trailColor: cb8ebf
-    trailLength: 41.5
+    trailLength: 47.5
     trailWidth: 2.4
 
     frontColor: f9a3c7
