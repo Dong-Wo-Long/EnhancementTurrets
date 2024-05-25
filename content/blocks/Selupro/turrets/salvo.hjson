@@ -52,6 +52,10 @@ copper: {
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 24.5
+
+    trailColor: f9c27a
+    trailLength: 32.5
+    trailWidth: 1.5
 }
 
 graphite: {
@@ -71,6 +75,10 @@ graphite: {
     lightOpacity: 0.7
     lightRadius: 27.5
 
+    trailColor: 6b77a1
+    trailLength: 32.5
+    trailWidth: 2.5
+
     frontColor: 95abd9
     backColor: 6b77a1
 }
@@ -78,8 +86,8 @@ graphite: {
 silicon: {
     type: BasicBulletType
     collidesAir: false
-    width: 7
     height: 9
+    width: 7
 
     reloadMultiplier: 1.15
     ammoMultiplier: 24
@@ -92,6 +100,10 @@ silicon: {
     lightColor: 8e9097
     lightOpacity: 0.7
     lightRadius: 21.5
+
+    trailColor: 767a84
+    trailLength: 32.5
+    trailWidth: 1.5
 
     frontColor: 8e9097
     backColor: 767a84
@@ -121,6 +133,10 @@ thorium: {
     lightOpacity: 0.7
     lightRadius: 32
 
+    trailColor: cb8ebf
+    trailLength: 41.5
+    trailWidth: 2.5
+
     frontColor: f9a3c7
     backColor: cb8ebf
 }
@@ -145,6 +161,10 @@ pyratite: {
     lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 32.5
+
+    trailColor: d37f47
+    trailLength: 32.5
+    trailWidth: 2.5
 
     frontColor: ffaa5f
     backColor: d37f47
