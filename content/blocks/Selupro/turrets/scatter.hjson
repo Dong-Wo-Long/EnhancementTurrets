@@ -49,6 +49,10 @@ scrap: {
     lightOpacity: 0.7
     lightRadius: 21
 
+    trailColor: 9b928b
+    trailLength: 32.5
+    trailWidth: 1.25
+
     frontColor: e0b28d
     backColor: 9b928b
     }
@@ -76,6 +80,10 @@ lead: {
     lightOpacity: 0.7
     lightRadius: 24.5
 
+    trailColor: 8c7fa9
+    trailLength: 32.5
+    trailWidth: 1.25
+
     frontColor: ab99d3
     backColor: 8c7fa9
     }
@@ -101,6 +109,10 @@ silicon: {
     lightColor: 8e9097
     lightOpacity: 0.7
     lightRadius: 21.5
+
+    trailColor: 767a84
+    trailLength: 32.5
+    trailWidth: 1.25
 
     frontColor: 8e9097
     backColor: 767a84
@@ -128,6 +140,10 @@ metaglass: {
     lightOpacity: 0.7
     lightRadius: 27.5
 
+    trailColor: ebeef5
+    trailLength: 32.5
+    trailWidth: 1.25
+
     frontColor: ffffff
     backColor: ebeef5
 
@@ -146,6 +162,10 @@ fragBullet: {
     lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 16.5
+
+    trailColor: ebeef5
+    trailLength: 17.5
+    trailWidth: 1
 
     frontColor: ffffff
     backColor: ebeef5
