@@ -68,7 +68,7 @@ lead: {
 
     splashDamageRadius: 26
     splashDamage: 27.5
-    pierceCap: 3
+    pierceCap: 4
     lifetime: 81
     damage: 21.5
     speed: 3.75
@@ -100,6 +100,7 @@ silicon: {
     splashDamageRadius: 0
     homingPower: 0.15
     splashDamage: 0
+    pierceCap: 2
     lifetime: 75
     damage: 12.5
     speed: 4.8
@@ -129,6 +130,7 @@ metaglass: {
     splashDamageRadius: 40
     splashDamage: 12.5
     fragBullets: 7
+    pierceCap: 3
     lifetime: 70
     damage: 7.5
     speed: 5
