@@ -135,7 +135,7 @@ thorium: {
 
     trailColor: cb8ebf
     trailLength: 41.5
-    trailWidth: 2.5
+    trailWidth: 2.4
 
     frontColor: f9a3c7
     backColor: cb8ebf
