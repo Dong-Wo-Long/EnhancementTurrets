@@ -2,7 +2,7 @@ research: duo
 rotateSpeed: 0.64
 targetAir: false
 fogRadius: 48.5
-shootY: -2
+shootY: -1
 recoil: 1
 shake: 1
 
