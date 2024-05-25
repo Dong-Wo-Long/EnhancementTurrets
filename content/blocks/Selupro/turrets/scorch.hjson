@@ -14,6 +14,7 @@ reload: 9
 range: 60
 armor: 3
 
+shootEffect: shootSmallColor
 ammoUseEffect: none
 shootSound: flame
 
