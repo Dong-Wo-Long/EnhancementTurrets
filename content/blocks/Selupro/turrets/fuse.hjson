@@ -43,6 +43,10 @@ graphite: {
     damage: 64
 
     toColor: 95abd9
+
+    lightColor: 95abd9
+    lightOpacity: 0.7
+    lightRadius: 32.5
 }
 
 titanium: {
@@ -62,6 +66,10 @@ titanium: {
     damage: 121
 
     toColor: a4b8fa
+
+    lightColor: a4b8fa
+    lightOpacity: 0.7
+    lightRadius: 27.5
 }
 
 thorium: {
@@ -84,6 +92,10 @@ thorium: {
     smokeEffect: thoriumShoot
 
     toColor: f9a3c7
+
+    lightColor: f9a3c7
+    lightOpacity: 0.7
+    lightRadius: 24.5
 }
 
 pyratite: {
@@ -103,6 +115,10 @@ pyratite: {
     damage: 48
 
     toColor: ffaa5f
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 41.5
 
 hitEffect: {
     type: ParticleEffect
@@ -176,6 +192,10 @@ blast-compound: {
     damage: 75
 
     toColor: ff795e
+
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 47.5
 
 hitEffect: {
     type: ParticleEffect
