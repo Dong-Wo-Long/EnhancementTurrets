@@ -57,7 +57,7 @@ graphite: {
 
     trailColor: 6b77a1
     trailLength: 24.5
-    trailWidth: 2.5
+    trailWidth: 2.35
 
     frontColor: 95abd9
     backColor: 6b77a1
@@ -111,14 +111,14 @@ scrap: {
 
     trailColor: 9b928b
     trailLength: 24.5
-    trailWidth: 1.5
+    trailWidth: 1.4
 
     frontColor: e0b28d
     backColor: 9b928b
 
 fragBullet: {
     type: BasicBulletType
-    shrinkY: 1
+    shrinkY: 0.25
     height: 12
     width: 5
 
