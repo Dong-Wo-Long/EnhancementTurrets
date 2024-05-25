@@ -32,6 +32,10 @@ copper: {
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 24.5
+
+    trailColor: f9c27a
+    trailLength: 24.5
+    trailWidth: 1.5
     }
 
 graphite: {
@@ -46,12 +50,16 @@ graphite: {
     damage: 24.5
     speed: 2.75
 
-    lightColor: 6b77a1
+    lightColor: 95abd9
     lightOpacity: 0.7
     lightRadius: 27.5
 
-    frontColor: 6b77a1
-    backColor: 95abd9
+    frontColor: 95abd9
+    backColor: 6b77a1
+
+    trailColor: 6b77a1
+    trailLength: 24.5
+    trailWidth: 2.5
     }
 
 silicon: {
@@ -73,6 +81,10 @@ silicon: {
 
     frontColor: 8e9097
     backColor: 767a84
+
+    trailColor: 767a84
+    trailLength: 24.5
+    trailWidth: 1.5
     }
 
 scrap: {
@@ -99,6 +111,10 @@ scrap: {
     frontColor: e0b28d
     backColor: 9b928b
 
+    trailColor: 9b928b
+    trailLength: 24.5
+    trailWidth: 1.5
+
 fragBullet: {
     type: BasicBulletType
     shrinkY: 1
@@ -110,16 +126,16 @@ fragBullet: {
     damage: 4.5
     speed: 4.5
 
-    trailColor: e0b28d
-    trailLength: 5.25
-    trailWidth: 0.5
-
     lightColor: e0b28d
     lightOpacity: 0.7
     lightRadius: 12.5
 
     frontColor: e0b28d
     backColor: 9b928b
+
+    trailColor: 9b928b
+    trailLength: 5.25
+    trailWidth: 1.5
 
 despawnEffect: {
     type: ExplosionEffect
@@ -140,7 +156,7 @@ despawnEffect: {
     sparkRad: 0
     sparkLen: 0
     sparks: 0
-    }
 }
     }
 }
+    }
