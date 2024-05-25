@@ -19,6 +19,12 @@ consumes: {
     power: 5.3345
 }
 
+requirements: [
+    lead/180
+    titanium/125
+    plastanium/75
+]
+
 chargeSound: minigun-charge
 shootSound: minigun-shot
 ammoUseEffect: casing2
