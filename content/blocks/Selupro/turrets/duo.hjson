@@ -55,12 +55,12 @@ graphite: {
     lightOpacity: 0.7
     lightRadius: 27.5
 
-    frontColor: 95abd9
-    backColor: 6b77a1
-
     trailColor: 6b77a1
     trailLength: 24.5
     trailWidth: 2.5
+
+    frontColor: 95abd9
+    backColor: 6b77a1
     }
 
 silicon: {
@@ -80,12 +80,12 @@ silicon: {
     lightOpacity: 0.7
     lightRadius: 21
 
-    frontColor: 8e9097
-    backColor: 767a84
-
     trailColor: 767a84
     trailLength: 24.5
     trailWidth: 1.5
+
+    frontColor: 8e9097
+    backColor: 767a84
     }
 
 scrap: {
@@ -109,12 +109,12 @@ scrap: {
     lightOpacity: 0.7
     lightRadius: 18
 
-    frontColor: e0b28d
-    backColor: 9b928b
-
     trailColor: 9b928b
     trailLength: 24.5
     trailWidth: 1.5
+
+    frontColor: e0b28d
+    backColor: 9b928b
 
 fragBullet: {
     type: BasicBulletType
@@ -131,12 +131,12 @@ fragBullet: {
     lightOpacity: 0.7
     lightRadius: 12.5
 
-    frontColor: e0b28d
-    backColor: 9b928b
-
     trailColor: 9b928b
     trailLength: 5.25
     trailWidth: 1.5
+
+    frontColor: e0b28d
+    backColor: 9b928b
 
 despawnEffect: {
     type: ExplosionEffect
