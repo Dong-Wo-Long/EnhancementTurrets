@@ -49,7 +49,7 @@ shootType: {
     statusDuration: 192
     pierceCap: 24
     lifetime: 32
-    damage: 361
+    damage: 481
 
     lightningLengthRand: 7.5
     lightningAngleRand: 50
