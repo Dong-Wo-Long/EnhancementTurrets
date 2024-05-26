@@ -15,7 +15,6 @@ reload: 180
 range: 720
 armor: 1
 
-shootEffect: shootSmallColor
 shootSound: bang
 
 requirements: [
@@ -108,12 +107,11 @@ pyratite: {
     lifetime: 80
     speed: 2.5
 
-    trailEffect: incendTrail
-
     lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 54.5
 
+    trailEffect: incendTrail
     trailLength: 5
     trailWidth: 5
 
