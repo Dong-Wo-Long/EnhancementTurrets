@@ -14,7 +14,7 @@ research: shock-mine
 researchCostMultiplier: 0.2
 buildCostMultiplier: 2
 
-tileDamage: 75
+tileDamage: 100
 cooldown: 60
 damage: 300
 health: 100
