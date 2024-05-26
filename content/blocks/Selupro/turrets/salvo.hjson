@@ -44,7 +44,7 @@ copper: {
 
     ammoMultiplier: 12
 
-    pierceCap: 3
+    pierceCap: 5
     lifetime: 80
     speed: 3.75
     damage: 21
@@ -67,7 +67,7 @@ graphite: {
     reloadMultiplier: 0.84
     ammoMultiplier: 6
 
-    pierceCap: 4
+    pierceCap: 7
     lifetime: 84
     damage: 32
     speed: 4
@@ -94,7 +94,7 @@ silicon: {
     ammoMultiplier: 24
 
     homingPower: 0.18
-    pierceCap: 2
+    pierceCap: 3
     lifetime: 80
     damage: 16.5
     speed: 4.8
