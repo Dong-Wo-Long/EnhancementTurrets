@@ -13,7 +13,6 @@ reload: 32
 range: 144
 
 shootEffect: lightningShoot
-heatColor: feb380
 
 consumes: {
     power: 3
