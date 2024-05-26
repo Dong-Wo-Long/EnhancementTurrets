@@ -20,7 +20,7 @@ cooldown: 60
 damage: 1.5
 health: 75
 
-destroySound: mineBoom
+destroySound: emp-boom
 
 requirements:[
     graphite/24
