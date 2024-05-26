@@ -19,7 +19,6 @@ requirements: [
     lead/45
 ]
 
-shootEffect: shootSmallColor
 shootSound: shootSnap
 shoot: {
     shotDelay: 5
@@ -43,6 +42,7 @@ scrap: {
     speed: 6
 
     hitEffect: flakExplosion
+    shootEffect: shootSmall
 
     lightColor: e0b28d
     lightOpacity: 0.7
@@ -73,6 +73,7 @@ lead: {
     speed: 3.75
 
     hitEffect: flakExplosion
+    shootEffect: shootSmall
 
     lightColor: ab99d3
     lightOpacity: 0.7
@@ -104,6 +105,7 @@ silicon: {
     speed: 4.8
 
     hitEffect: hitBulletColor
+    shootEffect: shootSmall
 
     lightColor: 8e9097
     lightOpacity: 0.7
@@ -134,6 +136,7 @@ metaglass: {
     speed: 5
 
     hitEffect: flakExplosion
+    shootEffect: shootSmall
 
     lightColor: ffffff
     lightOpacity: 0.7
