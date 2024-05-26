@@ -1,7 +1,7 @@
 type: ShockMine
 research: 11m-01-frag-mine
 name: EMP mine
-description: "EMP mine. On contact with the enemy, it explodes and disables units for 5 seconds."
+description: "EMP mine. On contact with the enemy, it explodes and disables units for 2.5 seconds."
 underBullets: true
 hasShadow: false
 category: effect
