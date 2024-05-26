@@ -28,10 +28,10 @@ requirements: [
     plastanium/75
 ]
 
-shootEffect: shootSmallColor
 chargeSound: minigun-charge
 shootSound: minigun-shot
 ammoUseEffect: casing2
+shootEffect: none
 shoot: {
     type: ShootBarrel
     firstShotDelay: 30
@@ -65,8 +65,8 @@ metaglass: {
     damage: 7.5
     speed: 6
 
+    shootEffect: shootSmallColor
     hitEffect: flakExplosion
-    shootEffect: shootSmall
 
     lightColor: ffffff
     lightOpacity: 0.7
@@ -129,7 +129,7 @@ blast-compound: {
 
     despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
-    shootEffect: shootBig
+    shootEffect: shootBigColor
 
     lightColor: ff795e
     lightOpacity: 0.7
@@ -159,7 +159,7 @@ fragBullet: {
     speed: 3
 
     despawnEffect: blastExplosion
-    hitEffect: blastExplosion
+    hitEffect: hitBulletColor
 
     lightColor: ff795e
     lightOpacity: 0.7
@@ -192,7 +192,7 @@ plastanium: {
     
     despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
-    shootEffect: shootBig
+    shootEffect: shootBigColor
 
     lightColor: edf3a9
     lightOpacity: 0.7
@@ -216,6 +216,7 @@ fragBullet: {
     lifetime: 15
     damage: 12.5
 
+    hitEffect: hitBulletColor
     despawnEffect: none
 
     lightColor: edf3a9
@@ -254,7 +255,7 @@ surge-alloy: {
 
     despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
-    shootEffect: shootBig
+    shootEffect: shootBigColor
 
     lightColor: fcf387
     lightOpacity: 0.7
@@ -284,6 +285,7 @@ silicon: {
     damage: 17.5
     speed: 4.8
 
+    shootEffect: shootSmallColor
     hitEffect: hitBulletSmall
 
     lightColor: 8e9097
@@ -316,6 +318,8 @@ pyratite: {
     lifetime: 90
     damage: 24.5
     speed: 4.1
+
+    shootEffect: shootSmallColor
 
     lightColor: ffaa5f
     lightOpacity: 0.7
