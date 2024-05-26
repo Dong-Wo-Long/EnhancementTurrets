@@ -51,7 +51,7 @@ metaglass: {
     height: 12.5
     width: 4.8
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.25
     reloadMultiplier: 1.25
     ammoMultiplier: 32
     rangeChange: 44
@@ -85,6 +85,8 @@ fragBullet: {
     height: 12
     width: 5
 
+    buildingDamageMultiplier: 0.15
+
     pierceCap: 3
     lifetime: 20
     damage: 4.5
@@ -109,7 +111,6 @@ blast-compound: {
     height: 15.25
     width: 5.25
 
-    buildingDamageMultiplier: 1.25
     reloadMultiplier: 0.75
     ammoMultiplier: 18
     rangeChange: 20
@@ -148,6 +149,8 @@ fragBullet: {
     shrinkY: 1
     width: 7.5
 
+    buildingDamageMultiplier: 0.75
+
     splashDamageRadius: 26
     statusDuration: 60
     splashDamage: 27.5
@@ -179,6 +182,7 @@ plastanium: {
     height: 12.5
     width: 5
 
+    buildingDamageMultiplier: 0.85
     ammoMultiplier: 24
 
     splashDamageRadius: 36
@@ -211,6 +215,8 @@ fragBullet: {
     height: 9
     width: 6
 
+    buildingDamageMultiplier: 0.75
+
     pierceCap: 5
     lifetime: 15
     damage: 12.5
@@ -236,7 +242,7 @@ surge-alloy: {
     height: 16
     width: 4.5
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.5
     reloadMultiplier: 2.25
     ammoMultiplier: 12
     rangeChange: 172
@@ -274,6 +280,7 @@ silicon: {
     height: 12
     width: 6
 
+    buildingDamageMultiplier: 0.75
     reloadMultiplier: 1.75
     ammoMultiplier: 41
     rangeChange: 40
@@ -306,6 +313,7 @@ pyratite: {
     height: 15
     width: 7.5
 
+    buildingDamageMultiplier: 0.01
     pierceDamageFactor: 0.75
     ammoMultiplier: 21
     rangeChange: 24
