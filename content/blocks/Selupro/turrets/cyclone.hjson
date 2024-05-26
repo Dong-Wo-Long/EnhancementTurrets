@@ -31,7 +31,6 @@ requirements: [
 chargeSound: minigun-charge
 shootSound: minigun-shot
 ammoUseEffect: casing2
-shootEffect: none
 shoot: {
     type: ShootBarrel
     firstShotDelay: 30
