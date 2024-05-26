@@ -46,6 +46,7 @@ graphite: {
     lightOpacity: 0.7
     lightRadius: 41.5
 
+    trailColor: 6b77a1
     trailLength: 4.75
     trailWidth: 4.75
 
@@ -78,6 +79,7 @@ silicon: {
     lightOpacity: 0.7
     lightRadius: 32
 
+    trailColor: 767a84
     trailLength: 4.5
     trailWidth: 4.5
 
@@ -112,6 +114,7 @@ pyratite: {
     lightRadius: 54.5
 
     trailEffect: incendTrail
+    trailColor: d37f47
     trailLength: 5
     trailWidth: 5
 
@@ -212,6 +215,7 @@ scrap: {
     lightOpacity: 0.7
     lightRadius: 18
 
+    trailColor: 9b928b
     trailLength: 4.25
     trailWidth: 4.25
 
@@ -230,7 +234,7 @@ fragBullet: {
     lifetime: 8
     speed: 4.5
 
-    trailColor: e0b28d
+    trailColor: 9b928b
     trailLength: 5.25
     trailWidth: 0.5
 
@@ -286,6 +290,10 @@ spore-pod: {
     lightColor: 9e78dc
     lightOpacity: 0.7
     lightRadius: 21
+
+    trailColor: 7457ce
+    trailLength: 4.75
+    trailWidth: 4.75
 
     frontColor: 9e78dc
     backColor: 7457ce
