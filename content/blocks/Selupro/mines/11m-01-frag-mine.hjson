@@ -17,7 +17,7 @@ buildCostMultiplier: 2
 tileDamage: 75
 cooldown: 60
 damage: 300
-health: 75
+health: 100
 
 destroySound: mineBoom
 
