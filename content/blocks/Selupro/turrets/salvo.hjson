@@ -28,7 +28,6 @@ requirements: [
     silicon/45
 ]
 
-shootEffect: shootBigColor
 ammoUseEffect: casing2
 shootSound: shootBig
 shoot: {
@@ -123,14 +122,14 @@ thorium: {
 
     splashDamageRadius: 26
     splashDamage: 24.5
-    pierceCap: 3
     lifetime: 84
     damage: 41.5
     speed: 3.25
 
     despawnEffect: flakExplosion
     smokeEffect: shootBigSmoke
-    hitEffect: hitBulletColor
+    hitEffect: flakExplosion
+    shootEffect: shootBig
 
     lightColor: f9a3c7
     lightOpacity: 0.7
