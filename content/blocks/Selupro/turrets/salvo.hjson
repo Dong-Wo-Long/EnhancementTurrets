@@ -65,7 +65,7 @@ graphite: {
     height: 12
     width: 9
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.35
     reloadMultiplier: 0.84
     ammoMultiplier: 6
 
@@ -120,6 +120,7 @@ thorium: {
     height: 13
     width: 10
 
+    buildingDamageMultiplier: 0.75
     reloadMultiplier: 0.25
     ammoMultiplier: 4
 
