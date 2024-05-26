@@ -42,6 +42,7 @@ copper: {
     height: 9
     width: 7
 
+    buildingDamageMultiplier: 0.25
     ammoMultiplier: 12
 
     pierceCap: 5
@@ -64,6 +65,7 @@ graphite: {
     height: 12
     width: 9
 
+    buildingDamageMultiplier: 0.5
     reloadMultiplier: 0.84
     ammoMultiplier: 6
 
@@ -90,6 +92,7 @@ silicon: {
     height: 9
     width: 7
 
+    buildingDamageMultiplier: 0.15
     reloadMultiplier: 1.15
     ammoMultiplier: 24
 
@@ -150,6 +153,7 @@ pyratite: {
     height: 12
     width: 10
 
+    buildingDamageMultiplier: 0.01
     reloadMultiplier: 0.9
     ammoMultiplier: 8
 
