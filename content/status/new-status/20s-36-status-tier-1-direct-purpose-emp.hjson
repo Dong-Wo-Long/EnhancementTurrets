@@ -8,7 +8,7 @@ affinities: [ wet ]
 effectChance: 0.05
 effect: {
     type: ParticleEffect
-    particles: 5
+    particles: 7
     lifetime: 25
     line: true
 
