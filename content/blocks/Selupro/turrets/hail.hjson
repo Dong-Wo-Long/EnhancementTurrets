@@ -32,7 +32,7 @@ graphite: {
     width: 13
 
     reloadMultiplier: 0.75
-    ammoMultiplier: 1
+    ammoMultiplier: 2
 
     splashDamageRadius: 40
     splashDamage: 42.5
@@ -62,8 +62,9 @@ silicon: {
     height: 12
     width: 12
 
+    buildingDamageMultiplier: 0.75
     reloadMultiplier: 1.25
-    ammoMultiplier: 4
+    ammoMultiplier: 5
 
     splashDamageRadius: 26
     splashDamage: 27.5
@@ -96,7 +97,8 @@ pyratite: {
     height: 15
     width: 15
 
-    ammoMultiplier: 2
+    buildingDamageMultiplier: 0.5
+    ammoMultiplier: 3
 
     splashDamageRadius: 60
     fragRandomSpread: 360
@@ -127,6 +129,8 @@ fragBullet: {
     shrinkY: 1
     height: 12
     width: 5
+
+    buildingDamageMultiplier: 0.25
 
     splashDamageRadius: 26
     splashDamage: 14.5
@@ -197,8 +201,8 @@ scrap: {
     height: 11
     width: 11
 
+    buildingDamageMultiplier: 0.85
     reloadMultiplier: 0.6
-    ammoMultiplier: 1
 
     splashDamageRadius: 12
     fragRandomSpread: 360
@@ -228,6 +232,8 @@ fragBullet: {
     shrinkY: 1
     height: 12
     width: 5
+
+    buildingDamageMultiplier: 0.75
 
     pierceCap: 3
     damage: 12.5
