@@ -5,11 +5,11 @@ recoil: 6
 buildCostMultiplier: 4.5
 
 scaledHealth: 130
-cooldownTime: 550
+cooldownTime: 700
 velocityRnd: 0
 inaccuracy: 3
 maxAmmo: 32
-reload: 600
+reload: 750
 range: 1440
 
 ammoUseEffect: casing3Double
@@ -19,4 +19,201 @@ ammoPerShot: 5
 shoot: {
     shotDelay: 24
     shots: 9
+    }
+
+ammoTypes: {
+graphite: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    height: 15
+    width: 15
+
+    reloadMultiplier: 0.75
+    ammoMultiplier: 8
+
+    splashDamageRadius: 40
+    splashDamage: 72.5
+    knockback: 7.5
+    lifetime: 80
+
+    lightColor: 95abd9
+    lightOpacity: 0.7
+    lightRadius: 52.5
+
+    trailColor: 6b77a1
+    trailLength: 5
+    trailWidth: 5
+
+    frontColor: 95abd9
+    backColor: 6b77a1
+}
+
+silicon: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    height: 13
+    width: 13
+
+    buildingDamageMultiplier: 0.5
+    reloadMultiplier: 1.75
+    ammoMultiplier: 12
+    
+    splashDamageRadius: 26
+    splashDamage: 47.5
+    homingPower: 0.12
+    homingRange: 50
+    knockback: 3.2
+    lifetime: 80
+
+    lightColor: 8e9097
+    lightOpacity: 0.7
+    lightRadius: 41.5
+
+    trailColor: 767a84
+    trailLength: 4.5
+    trailWidth: 4.5
+
+    frontColor: 8e9097
+    backColor: 767a84
+}
+
+pyratite: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    makeFire: true
+    height: 17.5
+    width: 17.5
+
+    buildingDamageMultiplier: 0.75
+    reloadMultiplier: 0.85
+    ammoMultiplier: 5
+
+    splashDamageRadius: 100
+    statusDuration: 900
+    splashDamage: 42.5
+    knockback: 2.25
+    status: burning
+    lifetime: 80
+
+    hitEffect: blastExplosion
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 64.5
+
+    trailEffect: incendTrail
+    trailColor: d37f47
+    trailLength: 6.5
+    trailWidth: 6.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+fragBullet: {
+    type: BasicBulletType
+    collidesGround: false
+    shrinkY: 1
+    height: 12.5
+    width: 7.5
+
+    splashDamageRadius: 26
+    splashDamage: 17.5
+    lifetime: 15
+    damage: 14.5
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: d37f47
+    trailLength: 21.5
+    trailWidth: 1.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
+}
+
+blastCompound: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    height: 14
+    width: 14
+
+    buildingDamageMultiplier: 1.25
+    reloadMultiplier: 0.65
+    ammoMultiplier: 2
+
+    splashDamageRadius: 60
+    splashDamage: 75
+    knockback: 12.5
+    status: blasted
+    lifetime: 80
+
+    hitEffect: blastExplosion
+
+    frontColor: ff795e
+    backColor: c85c51
+}
+
+plastanium: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    height: 13
+    width: 13
+
+    reloadMultiplier: 0.8
+    ammoMultiplier: 3
+    
+    splashDamageRadius: 36
+    splashDamage: 45
+    fragBullets: 10
+    knockback: 5
+    lifetime: 80
+
+    hitEffect: plasticExplosion
+
+    frontColor: edf3a9
+    backColor: cbd97f
+
+fragBullet: {
+    type: BasicBulletType
+    collidesAir: false
+    shrinkY: 1
+    height: 12
+    width: 10
+
+    buildingDamageMultiplier: 0.25
+    
+    knockback: 3.2
+    lifetime: 18
+    damage: 32.5
+
+    hitEffect: hitBulletColor
+    despawnEffect: none
+
+    frontColor: edf3a9
+    backColor: cbd97f
+    }
+}
     }
