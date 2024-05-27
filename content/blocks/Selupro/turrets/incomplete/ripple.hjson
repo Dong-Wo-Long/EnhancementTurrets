@@ -4,7 +4,7 @@ recoil: 6
 
 buildCostMultiplier: 4.5
 
-scaledHealth: 130
+scaledHealth: 750
 cooldownTime: 700
 velocityRnd: 0
 inaccuracy: 3
@@ -155,7 +155,7 @@ effects: [
 }
     }
 
-blastCompound: {
+blast-compound: {
     type: ArtilleryBulletType
     collidesTiles: false
     height: 14
