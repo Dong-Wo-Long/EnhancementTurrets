@@ -132,7 +132,7 @@ fragBullet: {
 
     trailColor: 9b928b
     trailLength: 5.25
-    trailWidth: 1.5
+    trailWidth: 0.75
 
     frontColor: e0b28d
     backColor: 9b928b
