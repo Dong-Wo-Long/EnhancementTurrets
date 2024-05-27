@@ -368,7 +368,7 @@ scrap: {
     width: 6
 
     buildingDamageMultiplier: 0.35
-    pierceDamageFactor: 0.5
+    pierceDamageFactor: 0.01
     reloadMultiplier: 0.85
     ammoMultiplier: 9
     rangeChange: 60
@@ -397,7 +397,7 @@ fragBullet: {
     width: 5
 
     buildingDamageMultiplier: 0.25
-    pierceDamageFactor: 0.25
+    pierceDamageFactor: 0.01
 
     pierceCap: 3
     lifetime: 18
