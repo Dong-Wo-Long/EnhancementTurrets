@@ -35,7 +35,7 @@ graphite: {
     splashDamage: 72.5
     knockback: 7.5
     lifetime: 80
-    speed: 4.5
+    speed: 3
 
     despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
@@ -67,7 +67,7 @@ silicon: {
     splashDamage: 47.5
     homingPower: 0.12
     homingRange: 50
-    knockback: 3.2
+    knockback: 4
     lifetime: 80
     speed: 6
 
@@ -102,9 +102,7 @@ pyratite: {
     knockback: 2.25
     status: burning
     lifetime: 80
-    speed: 5
-
-    hitEffect: blastExplosion
+    speed: 3.2
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -117,6 +115,27 @@ pyratite: {
 
     frontColor: ffaa5f
     backColor: d37f47
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 40
+
+    waveColor: ffaa5f
+    waveStroke: 4
+    waveRad: 60
+
+    smokeColor: ffaa5f
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: ffaa5f
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
+}
 
 fragBullet: {
     type: BasicBulletType
@@ -179,7 +198,7 @@ blast-compound: {
     knockback: 12.5
     status: blasted
     lifetime: 80
-    speed: 3.2
+    speed: 2.5
 
     despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
@@ -203,7 +222,7 @@ plastanium: {
     fragBullets: 10
     knockback: 5
     lifetime: 80
-    speed: 4.8
+    speed: 2.75
 
     despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
