@@ -361,4 +361,75 @@ effects: [
 ]
     }
 }
+
+scrap: {
+    type: BasicBulletType
+    height: 11
+    width: 6
+
+    reloadMultiplier: 0.85
+    ammoMultiplier: 9
+    rangeChange: 60
+
+    fragBullets: 12
+    pierceCap: 9
+    lifetime: 66
+    damage: 14.5
+    speed: 6.75
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: 9b928b
+    trailLength: 34.5
+    trailWidth: 1.32
+
+    frontColor: e0b28d
+    backColor: 9b928b
+
+fragBullet: {
+    type: BasicBulletType
+    shrinkY: 0.25
+    height: 12
+    width: 5
+
+    pierceCap: 5
+    lifetime: 22
+    damage: 12.5
+    speed: 4.5
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    trailColor: 9b928b
+    trailLength: 12.5
+    trailWidth: 0.85
+
+    frontColor: e0b28d
+    backColor: 9b928b
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: e0b28d
+    waveStroke: 1.5
+    waveRad: 3
+
+    smokeColor: e0b28d
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: e0b28d
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+}
     }
