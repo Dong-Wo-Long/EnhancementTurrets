@@ -1,1 +1,22 @@
 research: hail
+shake: 7.5
+recoil: 6
+
+buildCostMultiplier: 4.5
+
+scaledHealth: 130
+cooldownTime: 320
+velocityRnd: 0
+inaccuracy: 1
+maxAmmo: 32
+reload: 360
+range: 1440
+
+ammoUseEffect: casing3Double
+ammoEjectBack: 5
+ammoPerShot: 5
+
+shoot: {
+    shotDelay: 24
+    shots: 5
+    }
