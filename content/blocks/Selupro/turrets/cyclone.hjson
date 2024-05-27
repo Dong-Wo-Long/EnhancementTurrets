@@ -315,7 +315,7 @@ pyratite: {
     width: 7.5
 
     buildingDamageMultiplier: 0.01
-    pierceDamageFactor: 0.75
+    pierceDamageFactor: 0.5
     ammoMultiplier: 21
     rangeChange: 24
 
@@ -323,6 +323,7 @@ pyratite: {
     statusDuration: 180
     splashDamage: 21.5
     status: burning
+    pierceCap: 3
     lifetime: 90
     damage: 24.5
     speed: 4.1
@@ -368,7 +369,7 @@ scrap: {
     width: 6
 
     buildingDamageMultiplier: 0.35
-    pierceDamageFactor: 1.5
+    pierceDamageFactor: 0.25
     reloadMultiplier: 0.85
     ammoMultiplier: 9
     rangeChange: 60
@@ -396,11 +397,11 @@ fragBullet: {
     height: 12
     width: 5
 
-    buildingDamageMultiplier: 1.75
+    buildingDamageMultiplier: 0.5
     pierceDamageFactor: 0.01
 
+    lifetime: 13.5
     pierceCap: 3
-    lifetime: 18
     damage: 12.5
     speed: 4.5
 
