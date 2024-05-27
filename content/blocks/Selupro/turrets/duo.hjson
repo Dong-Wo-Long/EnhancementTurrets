@@ -56,7 +56,7 @@ graphite: {
 
     trailColor: 6b77a1
     trailLength: 24.5
-    trailWidth: 2.35
+    trailWidth: 2.1
 
     frontColor: 95abd9
     backColor: 6b77a1
