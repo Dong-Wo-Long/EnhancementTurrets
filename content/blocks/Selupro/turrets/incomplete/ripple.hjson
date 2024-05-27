@@ -36,6 +36,10 @@ graphite: {
     knockback: 7.5
     lifetime: 80
 
+    despawnEffect: flakExplosionBig
+    hitEffect: flakExplosionBig
+    shootEffect: shootBig
+
     lightColor: 95abd9
     lightOpacity: 0.7
     lightRadius: 52.5
@@ -64,6 +68,8 @@ silicon: {
     homingRange: 50
     knockback: 3.2
     lifetime: 80
+
+    hitEffect: blastExplosion
 
     lightColor: 8e9097
     lightOpacity: 0.7
@@ -171,7 +177,9 @@ blast-compound: {
     status: blasted
     lifetime: 80
 
-    hitEffect: blastExplosion
+    despawnEffect: flakExplosionBig
+    hitEffect: flakExplosionBig
+    shootEffect: shootBig
 
     frontColor: ff795e
     backColor: c85c51
@@ -192,6 +200,7 @@ plastanium: {
     knockback: 5
     lifetime: 80
 
+    despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
 
     frontColor: edf3a9
