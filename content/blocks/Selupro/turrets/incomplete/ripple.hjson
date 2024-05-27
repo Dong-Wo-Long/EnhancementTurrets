@@ -204,6 +204,14 @@ blast-compound: {
     hitEffect: flakExplosionBig
     shootEffect: shootBig
 
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 34.5
+
+    trailColor: c85c51
+    trailLength: 4.5
+    trailWidth: 4.5
+
     frontColor: ff795e
     backColor: c85c51
 }
@@ -227,6 +235,14 @@ plastanium: {
     despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
 
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 42.5
+
+    trailColor: cbd97f
+    trailLength: 3
+    trailWidth: 3
+
     frontColor: edf3a9
     backColor: cbd97f
 
@@ -245,6 +261,14 @@ fragBullet: {
 
     hitEffect: hitBulletColor
     despawnEffect: none
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailColor: cbd97f
+    trailLength: 2.5
+    trailWidth: 2.5
 
     frontColor: edf3a9
     backColor: cbd97f
