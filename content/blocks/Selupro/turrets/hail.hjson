@@ -123,6 +123,27 @@ pyratite: {
     frontColor: ffaa5f
     backColor: d37f47
 
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 40
+
+    waveColor: ffaa5f
+    waveStroke: 4
+    waveRad: 60
+
+    smokeColor: ffaa5f
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: ffaa5f
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
+}
+
 fragBullet: {
     type: BasicBulletType
     collidesGround: false
@@ -168,27 +189,6 @@ effects: [
     }
 ]
     }
-}
-
-hitEffect: {
-    type: ExplosionEffect
-
-    lifetime: 40
-
-    waveColor: ffaa5f
-    waveStroke: 4
-    waveRad: 60
-
-    smokeColor: ffaa5f
-    smokeSizeBase: 0
-    smokeSize: 5
-    smokes: 8
-
-    sparkColor: ffaa5f
-    sparkStroke: 3
-    sparkRad: 40
-    sparkLen: 4
-    sparks: 8
 }
     }
 
