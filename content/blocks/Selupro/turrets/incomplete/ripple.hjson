@@ -35,6 +35,7 @@ graphite: {
     splashDamage: 72.5
     knockback: 7.5
     lifetime: 80
+    speed: 4.5
 
     despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
@@ -68,6 +69,7 @@ silicon: {
     homingRange: 50
     knockback: 3.2
     lifetime: 80
+    speed: 6
 
     hitEffect: blastExplosion
 
@@ -100,6 +102,7 @@ pyratite: {
     knockback: 2.25
     status: burning
     lifetime: 80
+    speed: 5
 
     hitEffect: blastExplosion
 
@@ -176,6 +179,7 @@ blast-compound: {
     knockback: 12.5
     status: blasted
     lifetime: 80
+    speed: 3.2
 
     despawnEffect: flakExplosionBig
     hitEffect: flakExplosionBig
@@ -199,6 +203,7 @@ plastanium: {
     fragBullets: 10
     knockback: 5
     lifetime: 80
+    speed: 4.8
 
     despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
