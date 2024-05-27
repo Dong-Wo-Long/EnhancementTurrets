@@ -5,11 +5,11 @@ recoil: 6
 buildCostMultiplier: 4.5
 
 scaledHealth: 130
-cooldownTime: 320
+cooldownTime: 550
 velocityRnd: 0
 inaccuracy: 1
 maxAmmo: 32
-reload: 360
+reload: 600
 range: 1440
 
 ammoUseEffect: casing3Double
@@ -18,5 +18,5 @@ ammoPerShot: 5
 
 shoot: {
     shotDelay: 24
-    shots: 5
+    shots: 9
     }
