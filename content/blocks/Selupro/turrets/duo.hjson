@@ -110,7 +110,7 @@ scrap: {
 
     trailColor: 9b928b
     trailLength: 24.5
-    trailWidth: 1.4
+    trailWidth: 1
 
     frontColor: e0b28d
     backColor: 9b928b
