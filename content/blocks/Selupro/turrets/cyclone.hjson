@@ -112,6 +112,7 @@ blast-compound: {
     width: 5.25
 
     buildingDamageMultiplier: 0.25
+    pierceDamageFactor: 1.25
     reloadMultiplier: 0.75
     ammoMultiplier: 18
     rangeChange: 20
@@ -151,6 +152,7 @@ fragBullet: {
     width: 7.5
 
     buildingDamageMultiplier: 0.21
+    pierceDamageFactor: 0.75
 
     splashDamageRadius: 26
     statusDuration: 60
