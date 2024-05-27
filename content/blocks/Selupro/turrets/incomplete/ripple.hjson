@@ -7,7 +7,7 @@ buildCostMultiplier: 4.5
 scaledHealth: 130
 cooldownTime: 550
 velocityRnd: 0
-inaccuracy: 1
+inaccuracy: 3
 maxAmmo: 32
 reload: 600
 range: 1440
