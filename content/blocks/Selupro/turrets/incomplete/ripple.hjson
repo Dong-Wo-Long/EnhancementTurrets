@@ -275,4 +275,56 @@ fragBullet: {
     backColor: cbd97f
     }
 }
+
+spore-pod: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 5
+    hitShake: 5
+    height: 13
+    width: 13
+
+    ammoMultiplier: 8
+
+    splashDamageRadius: 40
+    status: spore-slowed
+    statusDuration: 900
+    splashDamage: 0
+    knockback: 1.5
+    lifetime: 80
+    speed: 2.32
+    damage: 0
+
+    lightColor: 9e78dc
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    trailColor: 7457ce
+    trailLength: 4.75
+    trailWidth: 4.75
+
+    frontColor: 9e78dc
+    backColor: 7457ce
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 180
+
+    waveColor: 7457ce
+    waveStroke: 2.25
+    waveRad: 45
+
+    smokeColor: 7457ce
+    smokeSizeBase: 0
+    smokeSize: 18
+    smokes: 15
+
+    sparkColor: 7457ce
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+}
     }
