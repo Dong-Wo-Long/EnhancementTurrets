@@ -317,7 +317,7 @@ despawnEffect: {
 
     smokeColor: 7457ce
     smokeSizeBase: 0
-    smokeSize: 18
+    smokeSize: 27.5
     smokes: 15
 
     sparkColor: 7457ce
