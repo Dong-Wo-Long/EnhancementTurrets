@@ -286,7 +286,7 @@ spore-pod: {
 
     ammoMultiplier: 8
 
-    splashDamageRadius: 40
+    splashDamageRadius: 60
     status: spore-slowed
     statusDuration: 900
     splashDamage: 0
@@ -317,7 +317,7 @@ despawnEffect: {
 
     smokeColor: 7457ce
     smokeSizeBase: 0
-    smokeSize: 27.5
+    smokeSize: 41.5
     smokes: 15
 
     sparkColor: 7457ce
