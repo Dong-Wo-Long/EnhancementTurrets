@@ -87,7 +87,7 @@ thorium: {
     knockback: 7.5
     pierceCap: 18
     lifetime: 18
-    damage: 181
+    damage: 231
 
     shootEffect: thoriumShoot
     smokeEffect: thoriumShoot
