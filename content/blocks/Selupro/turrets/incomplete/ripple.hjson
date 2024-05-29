@@ -48,8 +48,8 @@ graphite: {
 
     trailInterval: 12.5
     trailColor: 6b77a1
-    trailLength: 5
-    trailWidth: 5
+    trailLength: 12.5
+    trailWidth: 2.5
 
     frontColor: 95abd9
     backColor: 6b77a1
@@ -81,8 +81,8 @@ silicon: {
 
     trailInterval: 12.5
     trailColor: 767a84
-    trailLength: 4.5
-    trailWidth: 4.5
+    trailLength: 7.5
+    trailWidth: 1.8
 
     frontColor: 8e9097
     backColor: 767a84
@@ -114,8 +114,8 @@ pyratite: {
     trailEffect: incendTrail
     trailInterval: 12.5
     trailColor: d37f47
-    trailLength: 6.5
-    trailWidth: 4.5
+    trailLength: 17.5
+    trailWidth: 3.2
 
     frontColor: ffaa5f
     backColor: d37f47
@@ -214,7 +214,7 @@ blast-compound: {
 
     trailInterval: 12.5
     trailColor: c85c51
-    trailLength: 4.5
+    trailLength: 14.5
     trailWidth: 3.2
 
     frontColor: ff795e
@@ -306,7 +306,7 @@ spore-pod: {
 
     trailInterval: 12.5
     trailColor: 7457ce
-    trailLength: 4.75
+    trailLength: 14.5
     trailWidth: 3.2
     trailSize: 4.5
 
