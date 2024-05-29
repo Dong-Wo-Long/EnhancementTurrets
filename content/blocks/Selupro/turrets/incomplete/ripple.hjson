@@ -127,11 +127,11 @@ hitEffect: {
 
     waveColor: 454545
     waveStroke: 4
-    waveRad: 65
+    waveRad: 105
 
     smokeColor: 454545
     smokeSizeBase: 0
-    smokeSize: 7.5
+    smokeSize: 12.5
     smokes: 8
 
     sparkColor: ffaa5f
