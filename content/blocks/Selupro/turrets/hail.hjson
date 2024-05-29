@@ -31,7 +31,6 @@ graphite: {
     height: 13
     width: 13
 
-    reloadMultiplier: 0.75
     ammoMultiplier: 2
 
     splashDamageRadius: 40
@@ -98,6 +97,7 @@ pyratite: {
     width: 15
 
     buildingDamageMultiplier: 0.5
+    reloadMultiplier: 0.75
     ammoMultiplier: 3
 
     splashDamageRadius: 60
