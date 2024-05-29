@@ -46,6 +46,7 @@ graphite: {
     lightOpacity: 0.7
     lightRadius: 52.5
 
+    trailInterval: 12.5
     trailColor: 6b77a1
     trailLength: 5
     trailWidth: 5
@@ -78,6 +79,7 @@ silicon: {
     lightOpacity: 0.7
     lightRadius: 41.5
 
+    trailInterval: 12.5
     trailColor: 767a84
     trailLength: 4.5
     trailWidth: 4.5
@@ -110,9 +112,10 @@ pyratite: {
     lightRadius: 64.5
 
     trailEffect: incendTrail
+    trailInterval: 12.5
     trailColor: d37f47
     trailLength: 6.5
-    trailWidth: 6.5
+    trailWidth: 4.5
 
     frontColor: ffaa5f
     backColor: d37f47
@@ -209,9 +212,10 @@ blast-compound: {
     lightOpacity: 0.7
     lightRadius: 34.5
 
+    trailInterval: 12.5
     trailColor: c85c51
     trailLength: 4.5
-    trailWidth: 4.5
+    trailWidth: 3.2
 
     frontColor: ff795e
     backColor: c85c51
@@ -240,9 +244,10 @@ plastanium: {
     lightOpacity: 0.7
     lightRadius: 42.5
 
+    trailInterval: 12.5
     trailColor: cbd97f
     trailLength: 3
-    trailWidth: 3
+    trailWidth: 2
 
     frontColor: edf3a9
     backColor: cbd97f
@@ -299,9 +304,11 @@ spore-pod: {
     lightOpacity: 0.7
     lightRadius: 21
 
+    trailInterval: 12.5
     trailColor: 7457ce
     trailLength: 4.75
-    trailWidth: 4.75
+    trailWidth: 3.2
+    trailSize: 4.5
 
     frontColor: 9e78dc
     backColor: 7457ce
