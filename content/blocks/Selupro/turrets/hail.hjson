@@ -35,7 +35,7 @@ graphite: {
     ammoMultiplier: 2
 
     splashDamageRadius: 40
-    splashDamage: 47.5
+    splashDamage: 52.5
     knockback: 5
     lifetime: 80
     speed: 2
