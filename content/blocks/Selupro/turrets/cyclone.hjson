@@ -146,7 +146,6 @@ blast-compound: {
 
 fragBullet: {
     type: BasicBulletType
-    pierce: true
     height: 12.5
     shrinkY: 1
     width: 7.5
@@ -181,7 +180,6 @@ fragBullet: {
 
 plastanium: { 
     type: BasicBulletType
-    pierce: true
     height: 12.5
     width: 5
 
@@ -213,7 +211,6 @@ plastanium: {
 
 fragBullet: {
     type: BasicBulletType
-    pierce: true
     shrinkY: 1
     height: 9
     width: 6
@@ -279,7 +276,6 @@ surge-alloy: {
 
 silicon: {
     type: BasicBulletType
-    pierce: true
     height: 12
     width: 6
 
@@ -311,7 +307,6 @@ silicon: {
 
 pyratite: {
     type: BasicBulletType
-    collidesAir: false
     makeFire: true
     height: 15
     width: 7.5
