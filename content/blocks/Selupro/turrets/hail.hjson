@@ -35,7 +35,7 @@ graphite: {
     ammoMultiplier: 2
 
     splashDamageRadius: 40
-    splashDamage: 42.5
+    splashDamage: 47.5
     knockback: 5
     lifetime: 80
     speed: 2
@@ -67,7 +67,7 @@ silicon: {
     ammoMultiplier: 5
 
     splashDamageRadius: 26
-    splashDamage: 27.5
+    splashDamage: 32.5
     homingPower: 0.25
     homingRange: 50
     knockback: 2.5
@@ -103,7 +103,7 @@ pyratite: {
     splashDamageRadius: 60
     fragRandomSpread: 360
     statusDuration: 900
-    splashDamage: 24.5
+    splashDamage: 27.5
     knockback: 1.75
     status: burning
     fragBullets: 7
