@@ -5,7 +5,7 @@ shootCone: 32
 shake: 7.5
 recoil: 6
 
-buildCostMultiplier: 1.28
+buildCostMultiplier: 1.32
 
 scaledHealth: 690
 ammoPerShot: 2
@@ -162,7 +162,7 @@ pyratite: {
 
     buildingDamageMultiplier: 0.5
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.9
+    reloadMultiplier: 0.75
     ammoMultiplier: 15
     rangeChange: 272
 
@@ -221,7 +221,7 @@ blast-compound: {
 
     buildingDamageMultiplier: 1.5
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.5
     ammoMultiplier: 12
     rangeChange: 4
 
