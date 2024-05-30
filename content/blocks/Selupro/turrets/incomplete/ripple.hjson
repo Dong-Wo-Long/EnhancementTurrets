@@ -38,8 +38,6 @@ graphite: {
     lifetime: 80
     speed: 1.8
 
-    despawnEffect: flakExplosionBig
-    hitEffect: flakExplosionBig
     shootEffect: shootBig
 
     lightColor: 95abd9
@@ -53,7 +51,48 @@ graphite: {
 
     frontColor: 95abd9
     backColor: 6b77a1
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 95abd9
+    waveStroke: 7.5
+    waveRad: 55
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 7.5
+    smokes: 5
+
+    sparkColor: 95abd9
+    sparkStroke: 3.2
+    sparkRad: 28
+    sparkLen: 4
+    sparks: 12
 }
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 95abd9
+    waveStroke: 7.5
+    waveRad: 55
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 7.5
+    smokes: 5
+
+    sparkColor: 95abd9
+    sparkStroke: 3.2
+    sparkRad: 28
+    sparkLen: 4
+    sparks: 12
+}
+    }
 
 silicon: {
     type: ArtilleryBulletType
@@ -73,8 +112,6 @@ silicon: {
     lifetime: 80
     speed: 2.25
 
-    hitEffect: blastExplosion
-
     lightColor: 8e9097
     lightOpacity: 0.7
     lightRadius: 41.5
@@ -86,7 +123,48 @@ silicon: {
 
     frontColor: 8e9097
     backColor: 767a84
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 8e9097
+    waveStroke: 7.5
+    waveRad: 28
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 7.5
+    smokes: 5
+
+    sparkColor: 8e9097
+    sparkStroke: 2.5
+    sparkRad: 15
+    sparkLen: 3
+    sparks: 9
 }
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 8e9097
+    waveStroke: 7.5
+    waveRad: 28
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 7.5
+    smokes: 5
+
+    sparkColor: 8e9097
+    sparkStroke: 2.5
+    sparkRad: 15
+    sparkLen: 3
+    sparks: 9
+}
+    }
 
 pyratite: {
     type: ArtilleryBulletType
@@ -125,20 +203,20 @@ hitEffect: {
 
     lifetime: 40
 
-    waveColor: 696969
+    waveColor: ffaa5f
     waveStroke: 4
-    waveRad: 105
+    waveRad: 110
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 12.5
-    smokes: 8
+    smokeSize: 14.5
+    smokes: 9
 
     sparkColor: ffaa5f
-    sparkStroke: 3
-    sparkRad: 45
-    sparkLen: 4
-    sparks: 8
+    sparkStroke: 3.2
+    sparkRad: 75
+    sparkLen: 5
+    sparks: 15
 }
 
 fragBullet: {
@@ -150,8 +228,9 @@ fragBullet: {
 
     splashDamageRadius: 26
     splashDamage: 17.5
-    lifetime: 15
+    lifetime: 21
     damage: 14.5
+    speed: 2.1
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -278,8 +357,8 @@ fragBullet: {
 
     frontColor: edf3a9
     backColor: cbd97f
-    }
 }
+    }
 
 spore-pod: {
     type: ArtilleryBulletType
