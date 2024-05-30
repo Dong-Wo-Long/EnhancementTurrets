@@ -109,7 +109,7 @@ thorium: {
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 72
     statusDuration: 300
-    splashDamage: 121
+    splashDamage: 181
     knockback: 3.2
     pierceCap: 32
     lifetime: 152
@@ -226,7 +226,7 @@ blast-compound: {
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 132
+    splashDamage: 181
     status: blasted
     pierceCap: 21
     lifetime: 258
@@ -284,7 +284,7 @@ titanium: {
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 64
     statusDuration: 180
-    splashDamage: 181
+    splashDamage: 121
     pierceCap: 25
     lifetime: 160
     knockback: 3
