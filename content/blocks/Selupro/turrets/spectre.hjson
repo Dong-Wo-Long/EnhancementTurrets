@@ -230,7 +230,7 @@ blast-compound: {
     splashDamage: 121
     status: blasted
     pierceCap: 15
-    lifetime: 258
+    lifetime: 171
     knockback: 5
     speed: 2.25
     damage: 96
