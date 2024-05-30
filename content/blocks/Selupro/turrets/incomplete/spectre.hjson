@@ -1,6 +1,5 @@
 research: cyclone
 rotateSpeed: 1.25
-fogRadius: 52.5
 recoilTime: 48
 shootCone: 32
 recoil: 7.5
@@ -97,7 +96,7 @@ thorium: {
     type: BasicBulletType
     pierceBuilding: true
     hittable: false
-    hitSize: 5
+    hitSize: 5.2
     height: 28
     width: 15
 
@@ -106,7 +105,9 @@ thorium: {
     reloadMultiplier: 0.9
     ammoMultiplier: 5
     
+    status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 72
+    statusDuration: 300
     splashDamage: 121
     knockback: 3.2
     pierceCap: 32
@@ -154,7 +155,7 @@ pyratite: {
     pierceBuilding: true
     hittable: false
     makeFire: true
-    hitSize: 5
+    hitSize: 5.5
     height: 25
     width: 17
 
@@ -212,6 +213,7 @@ hitEffect: {
 blast-compound: {
     type: BasicBulletType
     hittable: false
+    hitSize: 5.32
     height: 21
     width: 15
 
@@ -220,11 +222,10 @@ blast-compound: {
     ammoMultiplier: 12
     rangeChange: 200
 
+    status: 20s-05-tier-2-strength-reduction
     splashDamageRadius: 100
-    statusDuration: 48
-    splashDamage: 121
-    status: blasted
-    fragBullets: 9
+    statusDuration: 240
+    splashDamage: 132
     pierceCap: 21
     lifetime: 258
     knockback: 5
@@ -263,6 +264,62 @@ hitEffect: {
     sparkRad: 90
     sparkLen: 23
     sparks: 25
+}
+    }
+
+titanium: {
+    type: BasicBulletType
+    hittable: false
+    hitSize: 5
+    height: 23
+    width: 14.5
+
+    reloadMultiplier: 1.25
+    ammoMultiplier: 8
+    rangeChange: 132
+
+    status: 20s-06-tier-1-strength-reduction
+    splashDamageRadius: 64
+    statusDuration: 180
+    splashDamage: 181
+    pierceCap: 25
+    lifetime: 160
+    knockback: 3
+    damage: 215
+    speed: 3.2
+
+    shootEffect: shootBig
+
+    lightColor: a4b8fa
+    lightOpacity: 0.7
+    lightRadius: 45
+
+    trailColor: 919fe7
+    trailLength: 42.5
+    trailWidth: 3
+
+    frontColor: a4b8fa
+    backColor: 919fe7
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 696969
+    waveStroke: 7.5
+    waveRad: 70
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 13
+
+    sparkColor: a4b8fa
+    sparkStroke: 4.5
+    sparkRad: 48
+    sparkLen: 9
+    sparks: 18
     }
 }
     }
