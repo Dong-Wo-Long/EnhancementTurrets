@@ -442,6 +442,8 @@ fragBullet: {
     height: 0
     width: 0
 
+    status: spore-slowed
+    statusDuration: 450
     lifetime: 13
     speed: 3.2
     damage: 0
