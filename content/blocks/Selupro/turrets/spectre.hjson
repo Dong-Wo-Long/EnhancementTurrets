@@ -109,11 +109,11 @@ thorium: {
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 72
     statusDuration: 180
-    splashDamage: 121
+    splashDamage: 125
     knockback: 3.2
     pierceCap: 21
     lifetime: 152
-    damage: 171
+    damage: 132
     speed: 2.5
 
     shootEffect: shootBig
@@ -231,8 +231,8 @@ blast-compound: {
     pierceCap: 15
     lifetime: 258
     knockback: 5
-    damage: 132
     speed: 2.25
+    damage: 96
 
     shootEffect: shootBig
 
