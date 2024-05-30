@@ -39,8 +39,6 @@ graphite: {
     lifetime: 80
     speed: 2
 
-    hitEffect: massiveExplosion
-
     lightColor: 95abd9
     lightOpacity: 0.7
     lightRadius: 41.5
@@ -51,6 +49,27 @@ graphite: {
 
     frontColor: 95abd9
     backColor: 6b77a1
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 95abd9
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: 95abd9
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+}
     }
 
 silicon: {
@@ -73,8 +92,6 @@ silicon: {
     lifetime: 80
     speed: 3.2
 
-    hitEffect: blastExplosion
-
     lightColor: 8e9097
     lightOpacity: 0.7
     lightRadius: 32
@@ -85,6 +102,27 @@ silicon: {
 
     frontColor: 8e9097
     backColor: 767a84
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 8e9097
+    waveStroke: 1.5
+    waveRad: 30
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 12.5
+    smokes: 5
+
+    sparkColor: 8e9097
+    sparkStroke: 1.5
+    sparkRad: 21.5
+    sparkLen: 3
+    sparks: 7
+}
     }
 
 pyratite: {
@@ -128,20 +166,20 @@ hitEffect: {
 
     lifetime: 40
 
-    waveColor: 696969
+    waveColor: ffaa5f
     waveStroke: 4
-    waveRad: 60
+    waveRad: 65
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 5
-    smokes: 8
+    smokeSize: 6
+    smokes: 9
 
     sparkColor: ffaa5f
-    sparkStroke: 3
-    sparkRad: 40
-    sparkLen: 4
-    sparks: 8
+    sparkStroke: 3.2
+    sparkRad: 45
+    sparkLen: 5
+    sparks: 11
 }
 
 fragBullet: {
@@ -313,7 +351,7 @@ despawnEffect: {
     waveStroke: 2.25
     waveRad: 35
 
-    smokeColor: 7457ce
+    smokeColor: 9e78dc
     smokeSizeBase: 0
     smokeSize: 15
     smokes: 12
