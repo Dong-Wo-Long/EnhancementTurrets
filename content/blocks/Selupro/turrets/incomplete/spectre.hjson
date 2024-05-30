@@ -222,10 +222,10 @@ blast-compound: {
     ammoMultiplier: 12
     rangeChange: 200
 
-    status: 20s-05-tier-2-strength-reduction
     splashDamageRadius: 100
-    statusDuration: 240
+    statusDuration: 48
     splashDamage: 132
+    status: blasted
     pierceCap: 21
     lifetime: 258
     knockback: 5
