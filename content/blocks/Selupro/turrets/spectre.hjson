@@ -45,6 +45,7 @@ graphite: {
     height: 23
     width: 14
 
+    buildingDamageMultiplier: 0.85
     pierceDamageFactor: 7.5
     reloadMultiplier: 1.75
     ammoMultiplier: 18
@@ -53,8 +54,8 @@ graphite: {
     splashDamageRadius: 60
     splashDamage: 75
     knockback: 2.5
-    pierceCap: 18
     lifetime: 134
+    pierceCap: 9
     damage: 81
     speed: 4.5
 
@@ -101,7 +102,6 @@ thorium: {
     height: 28
     width: 15
 
-    buildingDamageMultiplier: 1.25
     pierceDamageFactor: 7.5
     reloadMultiplier: 0.85
     ammoMultiplier: 5
@@ -111,7 +111,7 @@ thorium: {
     statusDuration: 180
     splashDamage: 96
     knockback: 3.2
-    pierceCap: 32
+    pierceCap: 21
     lifetime: 152
     damage: 132
     speed: 2.5
@@ -160,7 +160,7 @@ pyratite: {
     height: 25
     width: 17
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.5
     pierceDamageFactor: 7.5
     reloadMultiplier: 0.9
     ammoMultiplier: 15
@@ -171,8 +171,8 @@ pyratite: {
     splashDamage: 47.5
     status: burning
     knockback: 1.8
-    pierceCap: 12
     lifetime: 141
+    pierceCap: 5
     damage: 75
     speed: 5
 
@@ -219,7 +219,7 @@ blast-compound: {
     height: 21
     width: 15
 
-    buildingDamageMultiplier: 1.5
+    buildingDamageMultiplier: 1.25
     pierceDamageFactor: 7.5
     ammoMultiplier: 12
     rangeChange: 200
@@ -228,7 +228,7 @@ blast-compound: {
     statusDuration: 48
     splashDamage: 121
     status: blasted
-    pierceCap: 125
+    pierceCap: 15
     lifetime: 258
     knockback: 5
     damage: 196
@@ -277,6 +277,7 @@ titanium: {
     height: 23
     width: 14.5
 
+    buildingDamageMultiplier: 0.75
     pierceDamageFactor: 7.5
     reloadMultiplier: 1.25
     ammoMultiplier: 8
@@ -284,7 +285,7 @@ titanium: {
 
     splashDamageRadius: 64
     splashDamage: 81
-    pierceCap: 25
+    pierceCap: 18
     lifetime: 160
     knockback: 3
     damage: 121
