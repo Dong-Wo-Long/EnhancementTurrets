@@ -103,13 +103,13 @@ thorium: {
 
     buildingDamageMultiplier: 1.25
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.9
+    reloadMultiplier: 0.85
     ammoMultiplier: 5
     
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 72
     statusDuration: 300
-    splashDamage: 96
+    splashDamage: 121
     knockback: 3.2
     pierceCap: 32
     lifetime: 152
@@ -162,7 +162,7 @@ pyratite: {
 
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.85
+    reloadMultiplier: 0.9
     ammoMultiplier: 15
     rangeChange: 272
 
@@ -228,7 +228,7 @@ blast-compound: {
     statusDuration: 48
     splashDamage: 96
     status: blasted
-    pierceCap: 121
+    pierceCap: 125
     lifetime: 258
     knockback: 5
     damage: 181
@@ -285,7 +285,7 @@ titanium: {
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 64
     statusDuration: 180
-    splashDamage: 75
+    splashDamage: 81
     pierceCap: 25
     lifetime: 160
     knockback: 3
