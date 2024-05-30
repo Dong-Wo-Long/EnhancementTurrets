@@ -166,7 +166,7 @@ pyratite: {
     rangeChange: 272
 
     splashDamageRadius: 120
-    statusDuration: 300
+    statusDuration: 450
     splashDamage: 47.5
     status: burning
     knockback: 1.8
