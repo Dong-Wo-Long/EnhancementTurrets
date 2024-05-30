@@ -140,7 +140,7 @@ hitEffect: {
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 17.5
+    smokeSize: 27.5
     smokes: 18
 
     sparkColor: f9a3c7
@@ -200,7 +200,7 @@ hitEffect: {
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 17.5
+    smokeSize: 41.5
     smokes: 15
 
     sparkColor: ffaa5f
@@ -258,7 +258,7 @@ hitEffect: {
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 24.5
+    smokeSize: 34.5
     smokes: 15
 
     sparkColor: ff795e
@@ -316,7 +316,7 @@ hitEffect: {
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 14.5
+    smokeSize: 27.5
     smokes: 13
 
     sparkColor: a4b8fa
