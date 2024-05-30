@@ -223,7 +223,7 @@ blast-compound: {
     pierceDamageFactor: 7.5
     reloadMultiplier: 0.75
     ammoMultiplier: 12
-    rangeChange: 200
+    rangeChange: 4
 
     splashDamageRadius: 100
     statusDuration: 48
