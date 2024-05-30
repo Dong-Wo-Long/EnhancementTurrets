@@ -5,7 +5,7 @@ shootCone: 32
 recoil: 7.5
 shake: 8
 
-buildCostMultiplier: 1.26
+buildCostMultiplier: 1.28
 
 scaledHealth: 675
 ammoPerShot: 2
@@ -16,7 +16,7 @@ range: 380
 armor: 45
 
 consumes: {
-    power: 21.38
+    power: 21.37
 }
 
 requirements: [
