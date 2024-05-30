@@ -171,8 +171,8 @@ pyratite: {
     splashDamage: 47.5
     status: burning
     knockback: 1.8
+    pierceCap: 12
     lifetime: 141
-    pierceCap: 5
     damage: 41.5
     speed: 5
 
