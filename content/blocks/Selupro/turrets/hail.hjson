@@ -47,7 +47,7 @@ graphite: {
 
     trailColor: 6b77a1
     trailLength: 4.75
-    trailWidth: 4.75
+    trailWidth: 3.2
 
     frontColor: 95abd9
     backColor: 6b77a1
@@ -81,7 +81,7 @@ silicon: {
 
     trailColor: 767a84
     trailLength: 4.5
-    trailWidth: 4.5
+    trailWidth: 2.5
 
     frontColor: 8e9097
     backColor: 767a84
@@ -118,7 +118,7 @@ pyratite: {
     trailEffect: incendTrail
     trailColor: d37f47
     trailLength: 5
-    trailWidth: 5
+    trailWidth: 3
 
     frontColor: ffaa5f
     backColor: d37f47
@@ -221,7 +221,7 @@ scrap: {
 
     trailColor: 9b928b
     trailLength: 4.25
-    trailWidth: 4.25
+    trailWidth: 2.25
 
     frontColor: e0b28d
     backColor: 9b928b
@@ -299,7 +299,7 @@ spore-pod: {
 
     trailColor: 7457ce
     trailLength: 4.75
-    trailWidth: 4.75
+    trailWidth: 3.2
 
     frontColor: 9e78dc
     backColor: 7457ce
