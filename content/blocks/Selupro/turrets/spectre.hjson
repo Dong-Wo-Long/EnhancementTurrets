@@ -52,11 +52,11 @@ graphite: {
     rangeChange: 220
 
     splashDamageRadius: 60
-    splashDamage: 75
+    splashDamage: 64
     knockback: 2.5
     lifetime: 134
     pierceCap: 9
-    damage: 81
+    damage: 75
     speed: 4.5
 
     shootEffect: shootBig
@@ -103,17 +103,17 @@ thorium: {
     width: 15
 
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.64
+    reloadMultiplier: 0.5
     ammoMultiplier: 5
     
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 72
     statusDuration: 180
-    splashDamage: 125
+    splashDamage: 96
     knockback: 3.2
-    pierceCap: 21
+    pierceCap: 25
     lifetime: 152
-    damage: 132
+    damage: 121
     speed: 2.5
 
     shootEffect: shootBig
@@ -173,7 +173,7 @@ pyratite: {
     knockback: 1.8
     lifetime: 141
     pierceCap: 5
-    damage: 75
+    damage: 41.5
     speed: 5
 
     shootEffect: shootBig
@@ -285,10 +285,10 @@ titanium: {
 
     splashDamageRadius: 64
     splashDamage: 81
-    pierceCap: 18
+    pierceCap: 21
     lifetime: 160
     knockback: 3
-    damage: 121
+    damage: 96
     speed: 3.2
 
     shootEffect: shootBig
