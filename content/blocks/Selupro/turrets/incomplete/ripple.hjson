@@ -314,7 +314,7 @@ hitEffect: {
     smokes: 12
 
     sparkColor: ff795e
-    sparkStroke: 4
+    sparkStroke: 2.75
     sparkRad: 41
     sparkLen: 18
     sparks: 15
