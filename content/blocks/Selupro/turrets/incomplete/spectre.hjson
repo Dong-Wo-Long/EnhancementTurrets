@@ -7,13 +7,13 @@ shake: 8
 
 buildCostMultiplier: 1.26
 
-scaledHealth: 625
+scaledHealth: 675
 ammoPerShot: 2
 inaccuracy: 0
 maxAmmo: 75
 reload: 48
 range: 380
-armor: 41
+armor: 45
 
 consumes: {
     power: 21.38
