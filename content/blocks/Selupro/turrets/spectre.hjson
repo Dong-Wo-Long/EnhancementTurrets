@@ -113,7 +113,7 @@ thorium: {
     knockback: 3.2
     pierceCap: 21
     lifetime: 152
-    damage: 161
+    damage: 141
     speed: 2.5
 
     shootEffect: shootBig
