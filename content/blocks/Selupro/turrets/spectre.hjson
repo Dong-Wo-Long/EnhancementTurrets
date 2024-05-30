@@ -76,7 +76,7 @@ hitEffect: {
 
     lifetime: 32
 
-    waveColor: 696969
+    waveColor: 95abd9
     waveStroke: 7.5
     waveRad: 65
 
@@ -134,7 +134,7 @@ hitEffect: {
 
     lifetime: 32
 
-    waveColor: 696969
+    waveColor: f9a3c7
     waveStroke: 7.5
     waveRad: 75
 
@@ -194,7 +194,7 @@ hitEffect: {
 
     lifetime: 32
 
-    waveColor: 696969
+    waveColor: ffaa5f
     waveStroke: 7.5
     waveRad: 130
 
@@ -252,7 +252,7 @@ hitEffect: {
 
     lifetime: 32
 
-    waveColor: 696969
+    waveColor: ff795e
     waveStroke: 7.5
     waveRad: 110
 
@@ -310,7 +310,7 @@ hitEffect: {
 
     lifetime: 32
 
-    waveColor: 696969
+    waveColor: a4b8fa
     waveStroke: 7.5
     waveRad: 70
 
