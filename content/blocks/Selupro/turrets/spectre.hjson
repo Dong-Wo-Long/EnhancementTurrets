@@ -221,6 +221,7 @@ blast-compound: {
 
     buildingDamageMultiplier: 1.5
     pierceDamageFactor: 7.5
+    reloadMultiplier: 0.75
     ammoMultiplier: 12
     rangeChange: 200
 
