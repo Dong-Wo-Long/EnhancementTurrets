@@ -210,13 +210,13 @@ hitEffect: {
     smokeColor: 696969
     smokeSizeBase: 0
     smokeSize: 14.5
-    smokes: 9
+    smokes: 12
 
     sparkColor: ffaa5f
     sparkStroke: 3.2
     sparkRad: 75
     sparkLen: 5
-    sparks: 15
+    sparks: 18
 }
 
 fragBullet: {
@@ -298,7 +298,28 @@ blast-compound: {
 
     frontColor: ff795e
     backColor: c85c51
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: ff795e
+    waveStroke: 7.5
+    waveRad: 67
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 12
+
+    sparkColor: ff795e
+    sparkStroke: 4
+    sparkRad: 41
+    sparkLen: 18
+    sparks: 15
 }
+    }
 
 plastanium: {
     type: ArtilleryBulletType
