@@ -1,5 +1,6 @@
 research: cyclone
 rotateSpeed: 1.25
+fogRadius: 52.5
 recoilTime: 48
 shootCone: 32
 recoil: 7.5
