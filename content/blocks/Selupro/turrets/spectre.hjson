@@ -258,7 +258,7 @@ hitEffect: {
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 17.5
+    smokeSize: 24.5
     smokes: 15
 
     sparkColor: ff795e
