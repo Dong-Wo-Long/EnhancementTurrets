@@ -39,6 +39,7 @@ shoot: {
 ammoTypes: {
 graphite: {
     type: BasicBulletType
+    pierceBuilding: true
     hittable: false
     hitSize: 4.8
     height: 23
@@ -212,6 +213,7 @@ hitEffect: {
 
 blast-compound: {
     type: BasicBulletType
+    pierceBuilding: true
     hittable: false
     hitSize: 5.32
     height: 21
@@ -269,6 +271,7 @@ hitEffect: {
 
 titanium: {
     type: BasicBulletType
+    pierceBuilding: true
     hittable: false
     hitSize: 5
     height: 23
