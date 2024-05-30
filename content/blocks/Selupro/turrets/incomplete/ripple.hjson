@@ -125,11 +125,11 @@ hitEffect: {
 
     lifetime: 40
 
-    waveColor: 2b2b2b
+    waveColor: 696969
     waveStroke: 4
     waveRad: 105
 
-    smokeColor: 2b2b2b
+    smokeColor: 696969
     smokeSizeBase: 0
     smokeSize: 12.5
     smokes: 8
