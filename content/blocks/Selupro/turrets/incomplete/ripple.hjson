@@ -34,7 +34,7 @@ graphite: {
 
     splashDamageRadius: 40
     splashDamage: 72.5
-    knockback: 7.5
+    knockback: 2.5
     lifetime: 80
     speed: 1.8
 
@@ -108,7 +108,7 @@ silicon: {
     splashDamage: 47.5
     homingPower: 0.12
     homingRange: 50
-    knockback: 4
+    knockback: 1.5
     lifetime: 80
     speed: 2.25
 
@@ -180,7 +180,7 @@ pyratite: {
     splashDamageRadius: 100
     statusDuration: 900
     splashDamage: 42.5
-    knockback: 2.25
+    knockback: 1.25
     status: burning
     lifetime: 80
     speed: 2
@@ -278,8 +278,8 @@ blast-compound: {
 
     splashDamageRadius: 60
     splashDamage: 75
-    knockback: 12.5
     status: blasted
+    knockback: 5
     lifetime: 80
     speed: 1.5
 
@@ -333,7 +333,7 @@ plastanium: {
     splashDamageRadius: 36
     splashDamage: 45
     fragBullets: 10
-    knockback: 5
+    knockback: 3
     lifetime: 80
     speed: 1.75
 
@@ -396,7 +396,7 @@ spore-pod: {
     statusDuration: 900
     splashDamage: 0
     fragBullets: 3
-    knockback: 1.5
+    knockback: 0.8
     lifetime: 80
     speed: 2.32
     damage: 0
