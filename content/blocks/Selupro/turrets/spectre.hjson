@@ -60,6 +60,7 @@ graphite: {
     speed: 4.5
 
     shootEffect: shootBig
+    hitSound: explosion
 
     lightColor: 95abd9
     lightOpacity: 0.7
@@ -117,6 +118,7 @@ thorium: {
     speed: 2.5
 
     shootEffect: shootBig
+    hitSound: explosion
 
     lightColor: f9a3c7
     lightOpacity: 0.7
@@ -154,7 +156,6 @@ hitEffect: {
 pyratite: {
     type: BasicBulletType
     pierceBuilding: true
-    hittable: false
     makeFire: true
     hitSize: 5.5
     height: 25
@@ -177,6 +178,7 @@ pyratite: {
     speed: 5
 
     shootEffect: shootBig
+    hitSound: explosion
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -236,6 +238,7 @@ blast-compound: {
     damage: 96
 
     shootEffect: shootBig
+    hitSound: explosion
 
     lightColor: ff795e
     lightOpacity: 0.7
@@ -293,6 +296,7 @@ titanium: {
     speed: 3.2
 
     shootEffect: shootBig
+    hitSound: explosion
 
     lightColor: a4b8fa
     lightOpacity: 0.7
