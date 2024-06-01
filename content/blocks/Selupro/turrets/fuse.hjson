@@ -190,7 +190,7 @@ blast-compound: {
     knockback: 12.5
     pierceCap: 15
     lifetime: 18
-    damage: 81
+    damage: 96
 
     toColor: ff795e
 
