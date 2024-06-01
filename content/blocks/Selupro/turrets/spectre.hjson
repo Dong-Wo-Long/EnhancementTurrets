@@ -6,7 +6,7 @@ shake: 7.5
 recoil: 6
 
 buildCostMultiplier: 1.32
-coolantMultiplier: 0.75
+coolantMultiplier: 0.8
 
 scaledHealth: 690
 ammoPerShot: 2
