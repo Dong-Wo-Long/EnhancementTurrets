@@ -39,7 +39,7 @@ graphite: {
     rangeChange: 20
 
     knockback: 3.2
-    pierceCap: 15
+    pierceCap: 12
     lifetime: 18
     damage: 64
 
@@ -188,9 +188,9 @@ blast-compound: {
     statusDuration: 16
     status: blasted
     knockback: 12.5
-    pierceCap: 8
+    pierceCap: 15
     lifetime: 18
-    damage: 75
+    damage: 81
 
     toColor: ff795e
 
