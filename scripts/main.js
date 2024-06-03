@@ -2,7 +2,6 @@ Blocks.foreshadow.removeConsumer(Blocks.foreshadow.coolant);
 Blocks.foreshadow.coolant = null;
 
 Blocks.foreshadow.buildType = () => extend(ItemTurret.ItemTurretBuild, Blocks.foreshadow, {
-<<<<<<< main
 	acceptItem(source, item) {
 		return (item == Items.blastCompound && this.items.get(item) < 50) || this.super$acceptItem(source, item);
 	},
@@ -20,22 +19,3 @@ Blocks.foreshadow.buildType = () => extend(ItemTurret.ItemTurretBuild, Blocks.fo
 		return this.super$useAmmo();
 	}
 });
-=======
-acceptItem(source, item) {
-return (item == Items.blastCompound && this.items.get(item) <= 50) || this.super$acceptItem(source, item);
-},
-
-handleItem(source, item) {
-if (item == Items.blastCompound) {
-this.items.add(item, 1);
-} else {
-this.super$handleItem(source, item);
-}
-},
-
-useAmmo() {
-this.items.remove(Items.blastCompound, 15);
-this.super$useAmmo();
-}
-});
->>>>>>> main
