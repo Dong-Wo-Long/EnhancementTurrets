@@ -7,3 +7,7 @@ ammoPerShot: 30
 maxAmmo: 90
 range: 1440
 armor: 32
+
+consumes: {
+    power: 300
+}
