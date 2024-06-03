@@ -6,6 +6,7 @@ shake: 7.5
 recoil: 6
 
 buildCostMultiplier: 1.32
+coolantMultiplier: 1.2
 
 scaledHealth: 690
 ammoPerShot: 2
@@ -104,7 +105,7 @@ thorium: {
     width: 15
 
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.32
+    reloadMultiplier: 0.5
     ammoMultiplier: 5
     
     status: 20s-06-tier-1-strength-reduction
@@ -223,7 +224,7 @@ blast-compound: {
 
     buildingDamageMultiplier: 1.5
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.64
     ammoMultiplier: 12
     rangeChange: 4
 
