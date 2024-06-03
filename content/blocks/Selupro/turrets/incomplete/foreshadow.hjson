@@ -2,6 +2,7 @@ research: meltdown
 rotateSpeed: 1
 shake: 15
 
+<<<<<<< main
 shootCone: 0.35
 
 scaledHealth: 530
@@ -10,6 +11,19 @@ maxAmmo: 96
 range: 960
 armor: 32
 
+=======
+scaledHealth: 530
+ammoPerShot: 48
+shootCone: 0.35
+maxAmmo: 96
+range: 1200
+armor: 32
+
+consumes: {
+    power: 300
+}
+
+>>>>>>> main
 reload: 480
 
 consumes: {
@@ -98,4 +112,8 @@ ammoTypes: {
 			trailWidth: 2
 		}
 	}
+<<<<<<< main
 }
+=======
+}
+>>>>>>> main
