@@ -39,7 +39,7 @@ ammoTypes: {
 		lightningDamage: 96
 		lightningLength: 5
 		lightning: 10
-		damage: 2150
+		damage: 1350
 		splashDamage: 320
 		lifetime: 15
 		speed: 64
