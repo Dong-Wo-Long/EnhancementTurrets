@@ -6,17 +6,12 @@ scaledHealth: 530
 ammoPerShot: 48
 shootCone: 0.35
 maxAmmo: 96
+reload: 480
 range: 1200
 armor: 32
 
 consumes: {
     power: 150
-}
-
-reload: 480
-
-consumes: {
-    power: 40
 	liquids: [
 		cryofluid/1
 	]
