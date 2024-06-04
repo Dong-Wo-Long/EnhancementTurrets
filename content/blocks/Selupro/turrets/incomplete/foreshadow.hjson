@@ -36,11 +36,11 @@ ammoTypes: {
 		buildingDamageMultiplier: 0
 
 		splashDamageRadius: 80
-		lightningDamage: 150
+		lightningDamage: 96
 		lightningLength: 5
 		lightning: 10
-		damage: 2152
-		splashDamage: 512
+		damage: 2150
+		splashDamage: 320
 		lifetime: 15
 		speed: 64
 
@@ -80,11 +80,11 @@ ammoTypes: {
 			buildingDamageMultiplier: 0.01
 			
 			splashDamageRadius: 20
-			lightningDamage: 120
+			lightningDamage: 75
 			lightningLength: 1
 			lightning: 2
-			damage: 340
-			splashDamage: 120
+			damage: 180
+			splashDamage: 90
 			
 			lifetime: 5
 			speed: 32
