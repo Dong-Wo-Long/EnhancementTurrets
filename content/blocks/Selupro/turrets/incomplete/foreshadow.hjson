@@ -10,7 +10,7 @@ range: 1200
 armor: 32
 
 consumes: {
-    power: 300
+    power: 150
 }
 
 reload: 480
